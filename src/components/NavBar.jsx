@@ -3,11 +3,15 @@ import Container from 'react-bootstrap/Container';
 
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logoVivaBlanco from '../assets/logoVivaBlanco.png'
+import logoVivaBlanco from '../assets/logoVivaBlanco.png';
+import { useState } from 'react';
 
-function NavBar() {
+
+
+
+  function NavBar() {
   return (
-    <Navbar expand="lg" className=" bg-dark">
+    <Navbar expand="lg" className= "Navbar">
       <Container fluid>
        
         <Navbar.Toggle aria-controls="navbarScroll" />

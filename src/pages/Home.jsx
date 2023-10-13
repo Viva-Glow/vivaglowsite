@@ -13,7 +13,9 @@ const Home = () => {
   return (
    <>
    <NavBar/>
-   <Slider/>
+   <Slider
+   
+   />
    <SectionClinic/>
    <SectionCourses/>
    <Contact/>
