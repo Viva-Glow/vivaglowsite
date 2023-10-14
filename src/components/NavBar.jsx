@@ -3,15 +3,30 @@ import Container from 'react-bootstrap/Container';
 
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logoVivaBlanco from '../assets/logoVivaBlanco.png';
+import LogoDorado from '../assets/LogoDorado.png';
+import { useState } from 'react'
 
 
 
 
 
   function NavBar() {
+    const [ color, setColor ]= useState ( false)
+function changeColor() {
+  
+
+  if (window.scrollY >= 90) {
+
+    setColor(true);
+  }
+  else {
+    setColor(false);
+  }
+}
+  window.addEventListener ( 'scroll', changeColor)
+
   return (
-    <Navbar expand="lg" className= "Navbar">
+    <Navbar expand="lg" className= {color ? 'Navbar navbar-bg' : ' Navbar' }>
       <Container fluid>
        
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -24,7 +39,7 @@ import logoVivaBlanco from '../assets/logoVivaBlanco.png';
             <Nav.Link  className='navlink' href="#action1">Tratamientos</Nav.Link>
             <Nav.Link  className='navlink' href="#action2">Cursos</Nav.Link>
             <Navbar.Brand className='Navbar-brand' href="#">
-              <a href=""><img className='logoNavbar' src={logoVivaBlanco} alt="" /></a></Navbar.Brand>
+              <a href=""><img className='logoNavbar' src={LogoDorado} alt="" /></a></Navbar.Brand>
        
             <Nav.Link className='navlink' href="#" >
               Sobre nosotros
