@@ -1,64 +1,41 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Josefin+Sans:wght@500&display=swap");
+.logoNavbar {
+  width: 120px;
+ 
 
-.navbar {
-  background-color: rgb(236, 235, 235);
-  font-family: "Josefin Sans", sans-serif;
-  color: white !important;
+ 
 }
-.ContenedorN {
-  display: flex;
-  flex-direction: column;
+ a.navbar-brand 
+  {
+    padding-right: 100px;
+    padding-left: 100px;
 }
-.navbar-brand {
-    width: 200px;
-}
+ 
 
-.imgNav {
-    width: 200px;
-}
+.Navbar {
+ 
+  
+width: 100%;
+  position: fixed;
+  z-index: 100;
 
-.nav-item a:hover {
-  padding-bottom: 12px;
-  border-bottom: 3px solid rgba(38, 57, 48, 0.91);
 }
-.nav-item .active {
-  padding-bottom: 12px;
-  border-bottom: 3px solid  rgba(38, 57, 48, 0.91);
-}
-.nav-item:hover {
-  cursor: pointer !important;
-}
-
-/* ----------------- scroll*/
-.navbar {
-  transition: all 300ms ease-in-out;
-}
-.scroll-down .navbar {
-  transform: translate3d(0, -100%, 0);
-}
-
-.scroll-up .navbar {
-  filter: drop-shadow(0 -10px 20px rgb(170, 170, 170));
-}
-
-.menu-is-open {
-  overflow: hidden;
-}
-.menu-is-open .navbar {
-  filter: none;
+.navbar-bg {
+  background-color: #f4eeee;
+  transition-duration: 1s, 1s;
+height: 95px;
 }
 
 
-.nav-link{
-  display: inline-block !important;
-}
-/* ----------------------- */
-@media screen and (min-width: 300px) and (max-width: 570px) {
-.ContenedorN{
- flex-direction: row;
-}
-.btnNav{
-  background-color: rgba(240, 248, 255, 0.743) !important;
-}
+ .navlink {
+   display: flex !important;
+  padding-right: 50px;
+   align-items: flex-end !important;
 
+  color: #ffe090;
+  font-family: 'Orelega One', serif;
+  font-size: 25px;
+
+}
+.navlink:hover{
+  color: rgb(239, 248, 111);
 }
