@@ -25,7 +25,7 @@ function NavBar() {
   return (
     <Navbar collapseOnSelect expand="lg" className={color ?' Navbar  navbar-bg': 'Navbar'} id='Navbar'>
       <Container>
-        <Navbar.Brand href="#home" className='d-lg-none  Navbar-brand' ><img className='logoNavbar ' src="https://trello.com/1/cards/6526de440f26969756dd32b7/attachments/65292296fac4b5aac1385218/previews/65292297fac4b5aac1385470/download/Viva_Glow.png" alt="" /></Navbar.Brand>
+        <Navbar.Brand href="#home" className='Navbar-brand1 d-lg-none ' ><img className='logoNavbar ' src="https://trello.com/1/cards/6526de440f26969756dd32b7/attachments/65292296fac4b5aac1385218/previews/65292297fac4b5aac1385470/download/Viva_Glow.png" alt="" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" >
           <Nav className=" nav ">
