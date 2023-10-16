@@ -34,3 +34,9 @@ align-items:end;
   height: 690px;
   margin-top: 0;
 }
+
+/* ----------------body */
+body{
+  overflow-x: hidden;
+  
+}
