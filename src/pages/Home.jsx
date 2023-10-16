@@ -17,6 +17,16 @@ const Home = () => {
    <SectionClinic/>
    <SectionCourses/>
    <Contact/>
+   <div className="wh">
+          <a
+            href=" https://api.whatsapp.com/send?phone=34663531305"
+            className="whatsapp"
+            target="_blank"
+          >
+            {" "}
+            <i className="fa fa-whatsapp whatsapp-icon"></i>
+          </a>
+        </div>
    <Footer/>
 
 

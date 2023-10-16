@@ -24,18 +24,18 @@ function NavBar() {
   
   return (
     <Navbar collapseOnSelect expand="lg" className={color ?' Navbar  navbar-bg': 'Navbar'} id='Navbar'>
-      <Container>
+      <Container className='NavContainer'>
         <Navbar.Brand href="#home" className='Navbar-brand1 d-lg-none ' ><img className='logoNavbar ' src="https://trello.com/1/cards/6526de440f26969756dd32b7/attachments/65292296fac4b5aac1385218/previews/65292297fac4b5aac1385470/download/Viva_Glow.png" alt="" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" >
           <Nav className=" nav ">
-            <Nav.Link href="#features" className='navlink '>Features</Nav.Link>
-            <Nav.Link href="#pricing" className='navlink '>Pricing</Nav.Link>
+            <Nav.Link href="#features" className='navlink '>Tratamientos</Nav.Link>
+            <Nav.Link href="#pricing" className='navlink '>Cursos</Nav.Link>
 
             <Navbar.Brand href="#home "><img className='logoNavbar d-lg-block d-none ' src="https://trello.com/1/cards/6526de440f26969756dd32b7/attachments/65292296fac4b5aac1385218/previews/65292297fac4b5aac1385470/download/Viva_Glow.png" alt="" /></Navbar.Brand>
             
-            <Nav.Link href="#features" className='navlink '>Features</Nav.Link>
-            <Nav.Link href="#pricing" className='navlink '>Pricing</Nav.Link>
+            <Nav.Link href="#features" className='navlink '>Conócenos</Nav.Link>
+            <Nav.Link href="#pricing" className='navlink '>Contáctanos</Nav.Link>
             
           </Nav>
          
