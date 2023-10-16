@@ -87,7 +87,7 @@ figure {
 		width: 100%;
 		margin: 0;
 		padding: 30px;
-		background-color: rgba(#ca9d53,0.85);
+		background-color: rgba(#A8946C,0.85);
 		box-shadow: 0 0 20px rgba(black,0.4);
 		color: white;
 		line-height: 1;
@@ -115,4 +115,209 @@ figure {
 			cursor: pointer;
 		}
 	}
+}
+// --------------container
+.containerClinic{
+		padding: 100px ;
+	background-color: #fff5e381;
+	position: relative;
+	 
+	align-items: center;
+	justify-content: center;
+	width: 100vw !important;
+	height: auto;
+	max-width: 100vw;
+	color: #575757;
+}
+
+.containerWelcome{
+
+background-color: #ffffff;
+position: relative;
+ padding-bottom: 5px;
+align-items: center;
+justify-content: center;
+width: 100vw !important;
+// height: auto;
+max-width: 100vw;
+padding-bottom: 5% !important;
+padding-top: 5% !important;
+
+background-image: url(../assets/iconOpacity.jpg);
+
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+}
+.tituloP{
+	color: #575757;
+	letter-spacing: 1px;
+	
+}
+.tituloP strong{
+	font-weight: normal;
+    color: #7e634e;
+}
+.tituloP p {
+	color: #575757;
+}
+
+.textWelcome{
+	width: 70%;
+	justify-content: center;
+
+}
+.containerClinicBanner{
+	padding: 100px ;
+background-color: #CCB892;
+position: relative;
+ 
+align-items: center;
+justify-content: center;
+width: 100vw !important;
+height: auto;
+max-width:100%;
+
+}
+
+ 
+
+
+
+
+.divider {
+	width: 20%;
+	border: none;
+	height: 2px;
+background-color: #575757;
+	margin: 2rem auto;
+  }
+// -------------card presentation
+
+// :root {
+// 	--indent: 0;
+//   }
+  
+//   @media screen and (min-width: 40rem) {
+// 	:root {
+// 	  --indent: clamp(1.5rem, 4vw, 2.5rem);
+// 	}
+//   }
+  
+
+
+// TARJETA DISEÑADA EXTRA-----
+//   body {
+// 	margin: 0;
+// 	display: flex;
+// 	width: 100vw;
+// 	height: 100vh;
+// 	justify-content: center;
+// 	align-items: center;
+// 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+// 	  Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+//   }
+// .cardPresentation2{
+// 	justify-content: center;
+// 	align-items: center;
+// }
+  
+// .imgPresentation {
+// 	display: block;
+// 	width: 100%;
+// 	height: 100%;
+//   }
+  
+//   .cardPresentaion {
+// 	margin: 2rem;
+// 	display: grid;
+// 	grid-template-columns:
+// 	  var(--indent) calc(3 * var(--indent)) 1fr 1fr calc(2 * var(--indent))
+// 	  var(--indent);
+// 	grid-template-rows:
+// 	  var(--indent) calc(3 * var(--indent)) 1fr calc(2 * var(--indent))
+// 	  var(--indent);
+// 	max-width: 60rem;
+// 	border:none;
+//   }
+  
+//   .cardPresentaion::before {
+// 	content: "";
+// 	display: block;
+// 	background: white;
+// 	background-image: url(https://source.unsplash.com/6YmzwamGzCg/1200x1200);
+// 	background-size: cover;
+// 	grid-column: 2/-1;
+// 	grid-row: 2/-1;
+// 	box-shadow: 0 0 2rem hsla(0, 0%, 0%, 0.1);
+//   }
+  
+//   .cardPresentaion::after {
+// 	content: "";
+// 	display: block;
+// 	background: #e0dde4;
+// 	grid-column: 1/-2;
+// 	grid-row: 1/-2;
+// 	z-index: -1;
+//   }
+  
+//   .imgPresentation {
+// 	grid-column: 4/5;
+// 	grid-row: 3/4;
+// 	box-shadow: 0 0 1rem hsla(0, 0%, 0%, 0.3);
+// 	object-fit: cover;
+// 	aspect-ratio: 1 / 1;
+//   }
+  
+//   .cardPresentaion .figcap {
+// 	grid-column: 3/5;
+// 	grid-row: 3/4;
+// 	display: grid;
+// 	grid-template-columns: 3fr 1fr 2fr;
+//   }
+  
+//   .cardPresentaion blockquote {
+// 	grid-column: 1/3;
+// 	margin: 0;
+// 	padding-bottom: 1rem;
+	
+// 	font-size: 3rem;
+// 	font-weight: 100;
+// 	align-self: flex-end;
+//   }
+  
+//   .cardPresentaion cite {
+// 	grid-column: 1/2;
+// 	font-size: 1.3rem;
+// 	font-weight: 100;
+// 	font-style: normal;
+//   }
+  
+//   .cardPresentaion .credit {
+// 	grid-column: 2/4;
+// 	place-self: flex-end;
+// 	margin: 0;
+// 	padding: 1rem;
+// 	text-align: end;
+// 	color: white;
+// 	font-weight: 400;
+//   }
+  
+//   .cardPresentaion a {
+// 	color: white;
+//   }
+  
+
+
+//   
+.swiper-slide{
+	margin-right: 20px !important;
+	width: 330px !important;
+}
+
+.swiper-button-next{
+	color: #646464 !important;
+}
+.swiper-button-prev{
+	color: #646464 !important;
 }
