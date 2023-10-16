@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import '../css/navbar.css'
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Logo from '../assets/logoDorado.png'
 import { useState } from 'react';
