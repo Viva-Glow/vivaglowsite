@@ -1,36 +1,81 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&family=Noto+Sans+Ethiopic&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&family=Young+Serif&display=swap');
 .logoNavbar {
   width: 120px;
  
-}
-.Navbar {
 
+ 
+}
+
+.Navbar {
+ 
+  background-color: rgba(240, 248, 255, 0.597);
+width: 100%;
   position: fixed;
   z-index: 100;
-  width: 100%;
+
 }
 .navbar-bg {
   background-color: rgb(255, 255, 255);
+  transition-duration: 1s, 1s;
 }
-.Navbar-brand{
-padding-left: 100px;
-padding-right: 100px;
 
-}
  .navlink {
- margin-left: 50px;
- margin-right: 50px;
- display: flex;
-align-items:end;
+   display: flex !important;
+
+   align-items: flex-end !important;
+
   color: #f1c964;
-  font-family:  serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 25px;
 }
 .navlink:hover{
-  color: rgb(165, 163, 160);
+  color: rgb(239, 248, 111);
 }
+
 .Carousel {
   width: 100%;
-  height: 690px;
+  height: 580px !important;
   margin-top: 0;
 }
+@media (max-width: 830px) and ( min-width: 418px) {.Carousel{
+  height: 400px !important;
+}
+  
+.Navbar-brand{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  }
+}
+@media (max-width: 417px)  {.Carousel{
+  height: 300px !important;
+}
+.logoNavbar {
+  width: 80px;
+ 
+
+ 
+}
+.Navbar-brand{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  }
+
+
+}
+@media (min-width: 2280px)  {.Carousel{
+  height: 690px !important;
+  
+}
+
+
+@media (min-width: 992px)  {.Carousel{
+  height: 690px !important;
+  
+}
+
+
+}
+}
+
+
+
