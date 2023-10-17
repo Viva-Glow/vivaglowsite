@@ -1,17 +1,25 @@
 import React from "react";
 import "../css/contact.css";
 
+
 const Contact = () => {
   return (
     <>
-      <div className="body">
+      <div className="body pt-3 containerContact">
+      <div class="row pt-5">
+          <div class="col-md-6 offset-md-3">
+            <h2>Contáctanos</h2>
+          </div>
+        </div>
+        <hr class="divider" />
+        <p class="col-md-6 offset-md-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quae iure ut odit accusantium similique delectus? Maiores quod sit quibusdam ut voluptatem, cum perspiciatis repudiandae ea incidunt, voluptates mollitia optio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, neque at. Molestiae vitae similique quaerat illo eum eos nemo sint?</p>
         <div class="container">
           <div class="innerwrap">
-            <section class="section1 clearfix">
+            <section class="section1 clearfix pb-4">
               <div class="textcenter">
-                <span class="shtext">Contact Us</span>
-                <span class="seperator"></span>
-                <h1>Drop Us a Mail</h1>
+              <label for="card3" class="button bWh" aria-hidden="true">
+                 Whatsap 
+                </label>
               </div>
             </section>
 
@@ -28,40 +36,33 @@ const Contact = () => {
               </div>
         
               <div class="col2 column2 last">
-                {/* <div class="sec2innercont">
+                <div class="sec2innercont">
                   <div class="sec2addr">
                     <p>
-                      45 BC, a Latin professor at Hampden-Sydney College in
-                      Virginia
+                     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                     </p>
                     <p>
-                      <span class="collig">Phone :</span> +91 976885083
+                      <span class="collig">Phone :</span> xxxxxxxxxxxxxxxxxx
                     </p>
                     <p>
                       <span class="collig">Email :</span>{" "}
-                      vivek.mengu016@gmail.com
+                      xxxxxxxxxxxx@gmail.com
                     </p>
-                    <p>
-                      <span class="collig">Fax :</span> +91 9768850839
-                    </p>
+                   
                   </div>
-                </div> */}
+                </div>
                 <div class="sec2contactform">
-                  <h3 class="sec2frmtitle">
-                    Want to Know More?? Drop Us a Mail
+                  <h3 class="">
+                   Déjanos tu consulta!
                   </h3>
                   <form action="">
                     <div class="clearfix">
                       <input
-                        class="col2 first"
+                        class="col first"
                         type="text"
-                        placeholder="FirstName"
+                        placeholder="Nombre y apellido"
                       />
-                      <input
-                        class="col2 last"
-                        type="text"
-                        placeholder="LastName"
-                      />
+                 
                     </div>
                     <div class="clearfix">
                       <input
@@ -69,20 +70,19 @@ const Contact = () => {
                         type="Email"
                         placeholder="Email"
                       />
-                      <input
-                        class="col2 last"
-                        type="text"
-                        placeholder="Contact Number"
-                      />
+                    
                     </div>
                     <div class="clearfix">
                       <textarea name="textarea" id="" cols="30" rows="7">
                         Your message here...
                       </textarea>
                     </div>
-                    <div class="clearfix">
+                    <label  class="button bWh btnSend" aria-hidden="true" type="submit" value="Send" >
+                 Enviar
+                </label>
+                    {/* <div class="clearfix">
                       <input type="submit" value="Send" />
-                    </div>
+                    </div> */}
                   </form>
                 </div>
               </div>
