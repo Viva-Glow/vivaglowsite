@@ -42,7 +42,8 @@ align-items: center;
 @media  (Max-width: 991px) {
   
 .navlink {
-    padding-left: 5 !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
   }
   .Navbar-brand {
 

@@ -1,9 +1,11 @@
 import Container from 'react-bootstrap/Container';
 import '../css/navbar.css'
-
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logoVivaBlanco from '../assets/logoVivaBlanco.png';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 import { useState } from 'react';
 
 
@@ -26,10 +28,15 @@ function changeColor() {
   window.addEventListener ( 'scroll', changeColor)
 
   return (
+
+
     <Navbar expand="lg" className= {color ? 'Navbar Navbar-bg': 'Navbar'}>
+   
+
+   
       <Container fluid>
     
-      <Navbar.Brand className='Navbar-brand2 d-lg-none'  href="#">
+      <Navbar.Brand className='Navbar-brand2 d-lg-none '  href="#">
               <a href=""><img className='logoNavbar' src={logoVivaBlanco} alt="" /></a></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -46,6 +53,7 @@ function changeColor() {
        
             <Nav.Link className='navlink' href="#" >
              Nosotros
+          
             </Nav.Link>
             <Nav.Link  className='navlink' href="#" >
               Contáctanos 
@@ -54,7 +62,10 @@ function changeColor() {
          
         </Navbar.Collapse>
       </Container>
+    
     </Navbar>
+    
+   
   );
 }
 
