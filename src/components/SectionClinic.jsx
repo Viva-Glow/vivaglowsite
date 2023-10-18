@@ -128,7 +128,7 @@ const SectionClinic = () => {
           {/* card2------------------- */}
           <SwiperSlide>
             <figure>
-              <h1>Siriuseeee2</h1>
+              <h1>Siri2</h1>
               <img
                 src="https://img.freepik.com/foto-gratis/persona-que-recibe-tratamiento-belleza-microagujas_23-2149334245.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
                 alt=""
@@ -168,7 +168,7 @@ const SectionClinic = () => {
           <SwiperSlide>
             {" "}
             <figure>
-              <h1>Siriuseeee4</h1>
+              <h1>Sirius3</h1>
               <img
                 src="https://img.freepik.com/foto-gratis/persona-que-recibe-tratamiento-belleza-microagujas_23-2149334245.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
                 alt=""
@@ -187,7 +187,7 @@ const SectionClinic = () => {
           <SwiperSlide>
             {" "}
             <figure>
-              <h1>Siriuseeee5</h1>
+              <h1>Sirius4</h1>
               <img
                 src="https://img.freepik.com/foto-gratis/persona-que-recibe-tratamiento-belleza-microagujas_23-2149334245.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
                 alt=""
@@ -206,7 +206,7 @@ const SectionClinic = () => {
           <SwiperSlide>
             {" "}
             <figure>
-              <h1>Siriuseeee6</h1>
+              <h1>Sirius6</h1>
               <img
                 src="https://img.freepik.com/foto-gratis/persona-que-recibe-tratamiento-belleza-microagujas_23-2149334245.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
                 alt=""
@@ -225,7 +225,7 @@ const SectionClinic = () => {
           <SwiperSlide>
             {" "}
             <figure>
-              <h1>Siriuseeee7</h1>
+              <h1>Sirius7</h1>
               <img
                 src="https://img.freepik.com/foto-gratis/persona-que-recibe-tratamiento-belleza-microagujas_23-2149334245.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
                 alt=""

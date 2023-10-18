@@ -190,7 +190,7 @@
   border-bottom: color #7e634e; ;
 
 }
-.container{
+.containerAbout{
 	padding-bottom: 0px !important;	
 }
  
@@ -203,4 +203,8 @@
 		
 	}
 	
+}
+
+a{
+	text-decoration: none;
 }

@@ -9,7 +9,7 @@ import { faSquareInstagram } from '@fortawesome/free-brands-svg-icons'
 const About = () => {
   return (
     <section class="about-section">
-      <div class="container">
+      <div class="container containerAbout">
         <div class="row clearfix">
           <div class="content-column col-md-6 col-sm-12 col-xs-12">
             <div class="inner-column">
@@ -40,17 +40,16 @@ const About = () => {
                     className="whatB mx-2"
                   />
                 </a>
+              
                 <a href=" https://api.whatsapp.com/send?phone=34663531305">
                   {" "}
                   <FontAwesomeIcon
-                    icon={ faSquareInstagram }
+                    icon={faSquareInstagram }
                     style={{ color: "#7e634e" }}
                     size="xl"
-                    className="whatB"
+                    className="whatB mx-2"
                   />
                 </a>
-               
-             
 
 
 
