@@ -40,6 +40,15 @@
   margin-top: 30px;
   margin-left: 50px;
 }
+.buttom:hover{
+ background-color: #7D4D4E;
+		
+      transform: translateZ(80px) scale(0.94);
+      border-color: #7D4D4E;
+
+ 
+      
+}
 .carousel-indicators {
   display: none;
 }

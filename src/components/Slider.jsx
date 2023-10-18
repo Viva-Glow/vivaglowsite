@@ -19,7 +19,7 @@ function Slider () {
           <br /> ESTÉTICOS EN VALENCIA</h3>
           </Fade>
         
-          <Button variant="secondary"  className='buttom'>Quiero saber más</Button>{' '}
+          <Button   className='buttom '>Quiero saber más</Button>{' '}
         </Carousel.Caption>
       </Carousel.Item >
       <Carousel.Item >
