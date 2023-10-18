@@ -19,14 +19,14 @@
 	color:#777777;
 	font-size:15px;
 	line-height:2em;
-	margin-bottom:40px;
+	margin-bottom:30px;
 }
 
 .about-section .content-column .email{
 	position:relative;
 	color:#252525;
 	font-weight:700;
-	margin-bottom:50px;
+	margin-bottom:30px;
 }
 
 .about-section .image-column{
@@ -165,6 +165,9 @@
     padding:20px 20px 0px 0px;
     margin-left:50px;
   }
+
+  div .inner-column {
+    padding-right: 5px !important;}
   
 }
 @media  (Max-width: 767px) {
