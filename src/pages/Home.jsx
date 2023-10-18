@@ -19,11 +19,26 @@ const Home = () => {
    <div id='Slider'>
     
    <Slider/>
-    </div>
+    </div >
+
+    <div id='Clinic'>
+
    <SectionClinic/>
+    </div>
+    <div id='Courses'>
+
+
    <SectionCourses/>
+    </div>
+
+    <section id='About'>
    <About/>
+
+    </section>
+    <div id='Contact'>
+
    <Contact/>
+    </div>
    <div className="wh">
           <a
             href=" https://api.whatsapp.com/send?phone=34663531305"

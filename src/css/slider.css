@@ -1,110 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap");
 .ContainerC {
+  display: flex;
 
-    display: flex;
-
-    width: 100%;
-    margin-top: 0;
-    height: 700px;
+  width: 100%;
+  margin-top: 0;
+  height: 700px;
   object-fit: scale-down;
-    
-  }
+}
 
+.BtnText {
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 300px;
+  margin-bottom: 15%;
+}
+.text {
+  font-family: "Bebas Neue", sans-serif !important;
+
+  color: #7e634e;
+
+  text-align: center;
+}
+
+.buttom {
+  display: flex;
+  justify-content: flex-start;
+  color: rgba(255, 255, 255, 0.9) ;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: #a8876c;
+  border: 2px solid;
+  border-color: #a8876c;
+  border-radius: 30px;
+
+  outline: none;
+  transition: background-color 0.1s linear;
+  padding: 21px 34px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.carousel-indicators {
+  display: none;
+}
+@media (max-width: 991px) and (min-width: 0px) {
+  .Carousel {
+    height: 500px !important;
+  }
+}
+@media (max-width: 600px) {
   .BtnText {
-      justify-content: flex-start;
-      flex-direction: column;
-      width: 300px;
-      margin-bottom: 15%;
-  }
-  .text {
-
-    font-family: 'Bebas Neue', sans-serif !important;
- 
-    color:#cd7e3e;
-  
-   text-align: center;
-
-   
-
-
- 
-
-  }
-
- 
-
-  .buttom{
-    display: flex;
-   justify-content: flex-start;
-    color: rgba(255, 255, 255, 0.9) !important;
-    font-size: 15px;
-    font-weight: 500;
-    padding: 0.5em 1.2em;
-    background: #ffcc8f;
-    border: 2px solid;
-    border-color: #cd7e3e;
-    border-radius: 30px;
-
-  
-
-    outline: none;
-    transition: background-color 0.1s linear;
-    padding: 21px 34px;
-    margin-top: 30px;
-    margin-left: 50px;
-  
-  
-  
-
-  }
-  .carousel-indicators {
     display: none;
   }
-  @media  (Max-width: 991px) and (Min-Width: 0px){
-  
-    .Carousel {
-      
-        height: 500px !important;
+  .Carousel {
+    height: 400px !important;
+  }
+}
+@media (min-width: 747px) {
+  .Carousel {
+    width: 100%;
+    object-fit: cover;
+    height: 700px;
+  }
 
-        
-      }
-    
-      
-    }
-    @media  (Max-width: 600px) {
-  
-      
-          .BtnText {
-            display: none;
-          }
-          .Carousel {
-      
-            height: 400px !important;
-    
-            
-          }
-          
-        
-          
-        }
-        @media  (Min-width: 747px) {
-  
-      
-         
-            .Carousel {
-        
-            width: 100%;
-            object-fit: cover;
-            height: 700px ;
-      
-              
-            }
-          
-            .ContainerC {
-               
-                height: 600px;
-             
-                
-              }
-            
-          }
+  .ContainerC {
+    height: 600px;
+  }
+}
