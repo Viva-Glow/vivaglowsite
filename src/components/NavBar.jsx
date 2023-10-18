@@ -3,6 +3,12 @@ import '../css/navbar.css'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSquareFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faSquareInstagram } from '@fortawesome/free-brands-svg-icons'
+
+
+
 
 
 import { useState } from 'react';
@@ -28,11 +34,13 @@ function changeColor() {
 
   return (
 
+    
+
 
     <Navbar expand="lg" className= {color ? 'Navbar Navbar-bg': 'Navbar'}>
    
+ 
 
-   
       <Container fluid>
     
       <Navbar.Brand className='Navbar-brand2 d-lg-none '  href="#">
