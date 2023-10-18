@@ -1,64 +1,63 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Josefin+Sans:wght@500&display=swap");
+.logoNavbar {
+  width: 100px;
 
-.navbar {
-  background-color: rgb(236, 235, 235);
-  font-family: "Josefin Sans", sans-serif;
-  color: white !important;
 }
-.ContenedorN {
-  display: flex;
-  flex-direction: column;
-}
-.navbar-brand {
-    width: 200px;
-}
+.Navbar {
 
-.imgNav {
-    width: 200px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+
+  
+
+}
+.Navbar-bg {
+  background-color: rgba(0, 0, 0, 0.856);
 }
 
-.nav-item a:hover {
-  padding-bottom: 12px;
-  border-bottom: 3px solid rgba(38, 57, 48, 0.91);
-}
-.nav-item .active {
-  padding-bottom: 12px;
-  border-bottom: 3px solid  rgba(38, 57, 48, 0.91);
-}
-.nav-item:hover {
-  cursor: pointer !important;
+.Navbar-brand{
+padding-left: 100px;
+padding-right: 100px;
+
 }
 
-/* ----------------- scroll*/
-.navbar {
-  transition: all 300ms ease-in-out;
+ .navlink {
+ margin-left: 50px;
+ margin-right: 50px;
+ display: flex;
+align-items:flex-end;
+  color: rgb(221, 185, 102);
+  font-family:  serif;
+  padding-top: 0
 }
-.scroll-down .navbar {
-  transform: translate3d(0, -100%, 0);
+.navbar-nav-scroll {
+  max-height: var(--bs-scroll-height,75vh);
+   overflow-y:visible; 
+ 
 }
 
-.scroll-up .navbar {
-  filter: drop-shadow(0 -10px 20px rgb(170, 170, 170));
+.navlink:hover{
+  color: rgb(165, 163, 160);
 }
-
-.menu-is-open {
-  overflow: hidden;
-}
-.menu-is-open .navbar {
-  filter: none;
+.Navbar-bg {
+  background-color: rgb(255, 255, 255);
+  transition-duration: 1s;
+  z-index: 1000;
 }
 
 
-.nav-link{
-  display: inline-block !important;
-}
-/* ----------------------- */
-@media screen and (min-width: 300px) and (max-width: 570px) {
-.ContenedorN{
- flex-direction: row;
-}
-.btnNav{
-  background-color: rgba(240, 248, 255, 0.743) !important;
-}
+@media  (Max-width: 991px) {
+  
+.navlink {
+    padding-left: 5 !important;
+    margin-left: 0;
+  }
+  .Navbar-brand {
 
+   display: flex;
+   justify-content: space-between;
+  }
+  .navbar-collapse {
+    height: 140px;
+  }
 }

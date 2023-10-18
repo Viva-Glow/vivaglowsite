@@ -1,21 +1,30 @@
 import Carousel from 'react-bootstrap/Carousel';
+import Button from 'react-bootstrap/Button';
+import '../css/slider.css'
+
 
 
 function Slider () {
   return (
     <Carousel fade className='ConteinerC' >
       <Carousel.Item >
-      <img className='Carousel' src="https://img.freepik.com/foto-gratis/mujer-estudio-cosmetologia-procedimientos_1157-33859.jpg?w=826&t=st=1697138194~exp=1697138794~hmac=12cb88316de7a0c98a86c44fe1675d5172ad5725530d4200ffc5b01b8daaa343" alt="" />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <img className='Carousel' src="https://img.freepik.com/foto-gratis/retrato-belleza-misterio-sonriente-mujer-jengibre-cabello-largo-posando-lado-mirando_171337-920.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=sph" alt="" />
+        <Carousel.Caption className=' BtnText'>
+          <h3 className='text'>NUEVOS TRATAMIENTOS</h3>
+        
+          <Button variant="secondary"  className='buttom'>Quiero saber más</Button>{' '}
         </Carousel.Caption>
       </Carousel.Item >
       <Carousel.Item >
-      <img className='Carousel' src="https://img.freepik.com/foto-gratis/mujeres-maquillandose-plano-medio_23-2149326518.jpg?w=826&t=st=1697138423~exp=1697139023~hmac=ca6a1b7f711ffc373f2cfb0cc3fba3be15750c9e90a6eec52fe63ec82cb51724" alt="" />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <img className='Carousel' src="https://img.freepik.com/foto-gratis/mujer-atractiva-recibiendo-procedimientos-belleza-facial-salon-spa_1098-18097.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=sphhttps://images.pexels.com/photos/5042628/pexels-photo-5042628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+        
+        
+        <Carousel.Caption className=' BtnText'>
+         
+        <h3 className='text'>CLASES DISPONIBLES</h3>
+         
+          
+          <Button variant="secondary" className='buttom'>Quiero saber más</Button>{' '}
         </Carousel.Caption>
       </Carousel.Item>
     

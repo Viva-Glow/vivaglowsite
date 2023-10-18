@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
+.ContainerC {
+    width: 100%;
+    margin-top: 0;
+    height: 700px;
+  object-fit: scale-down;
+    
+  }
+  .text {
+    font-family: 'Bebas Neue', sans-serif !important;
+ 
+    color:#cd7e3e;
+  
+   text-align: center;
+    border-bottom: .5vw solid #cd7e3e;
+
+ 
+
+  }
+
+ 
+
+  .buttom{
+  
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #ffcc8f;
+    border: 2px solid;
+    border-color: #cd7e3e;
+    border-radius: 30px;
+    position: relative;
+    outline: none;
+    transition: background-color 0.1s linear;
+    padding: 21px 34px;
+    margin-top: 30px;
+  
+  
+  
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  @media  (Max-width: 991px) and (Min-Width: 0px){
+  
+    .Carousel {
+      
+        height: 500px !important;
+
+        
+      }
+    
+      
+    }
+    @media  (Max-width: 600px) {
+  
+      
+          .BtnText {
+            display: none;
+          }
+          .Carousel {
+      
+            height: 400px !important;
+    
+            
+          }
+          
+        
+          
+        }
+        @media  (Min-width: 747px) {
+  
+      
+         
+            .Carousel {
+        
+            width: 100%;
+            object-fit: cover;
+            height: 700px ;
+      
+              
+            }
+          
+            .ContainerC {
+               
+                height: 600px;
+             
+                
+              }
+            
+          }
