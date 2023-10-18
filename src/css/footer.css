@@ -86,7 +86,9 @@ footer .social-media .links a {
 .copyright .CTA li a {
     color: #ffffff;
 }
-
+.info li{
+    font-size: 15px;
+}
 
 /* media query------------ */
 @media (max-width: 768px) {

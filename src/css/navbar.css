@@ -60,6 +60,7 @@ align-items:flex-end;
   .navbar-collapse {
     height: 140px;
   }
+
   .container-fluid {
     margin-top: 7px;
   }
@@ -67,3 +68,4 @@ align-items:flex-end;
     display: none !important;
   }
 }
+
