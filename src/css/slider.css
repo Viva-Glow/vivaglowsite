@@ -36,9 +36,9 @@
 
   outline: none;
   transition: background-color 0.1s linear;
-  padding: 21px 34px;
+  padding: 12px 18px;
   margin-top: 30px;
-  margin-left: 50px;
+  margin-left: 70px;
 }
 .buttom:hover{
  background-color: #7D4D4E;
@@ -63,6 +63,10 @@
   }
   .Carousel {
     height: 400px !important;
+    aspect-ratio: 4
+    /4;
+    object-fit: cover;
+   
   }
 }
 @media (min-width: 747px) {
@@ -76,3 +80,29 @@
     height: 600px;
   }
 }
+@media (max-width: 600px) {
+    .BtnText {
+      display: none;
+    }
+    .Carousel {
+      height: 400px !important;
+      object-fit: cover;
+   
+    }
+  }
+
+  @media (max-width: 600px) and (min-width: 401px) {
+    .Carousel {
+     width: 100%;
+
+    }
+  }
+  @media (max-width: 381px) {
+
+    .Carousel {
+      
+    left: -16 !important;
+    object-fit: cover;
+    width: 100%;
+     
+    }}
