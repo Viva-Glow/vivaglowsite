@@ -32,7 +32,7 @@ const Contact = () => {
                     icon={faWhatsapp}
                     style={{ color: "#2ea41e" }}
                     size="xl"
-                    className="whatB"
+                    className="whatB pb-2"
                   />
                 </a>
                 <p>Directo a nuestro Whatsapp</p>

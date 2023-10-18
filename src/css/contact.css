@@ -195,6 +195,9 @@ select:focus {
   .section1 h1 {
     font-size: 28px;
   }
+  .column1{
+    height: 250px !important;
+  }
 }
 /* ------------------------------------------------ extra */
 .column1 {
