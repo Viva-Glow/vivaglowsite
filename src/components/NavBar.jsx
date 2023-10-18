@@ -2,7 +2,9 @@ import Container from 'react-bootstrap/Container';
 import '../css/navbar.css'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+
 import  LogoDorado  from '../assets/LogoDorado.png'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquareFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faSquareInstagram } from '@fortawesome/free-brands-svg-icons'

@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
 .ContainerC {
+
     display: flex;
+
     width: 100%;
     margin-top: 0;
     height: 700px;
@@ -21,7 +23,9 @@
     color:#cd7e3e;
   
    text-align: center;
+
    
+
 
  
 
@@ -42,7 +46,9 @@
     border: 2px solid;
     border-color: #cd7e3e;
     border-radius: 30px;
+
   
+
     outline: none;
     transition: background-color 0.1s linear;
     padding: 21px 34px;
@@ -51,6 +57,7 @@
   
   
   
+
   }
 
   .buttom:hover {

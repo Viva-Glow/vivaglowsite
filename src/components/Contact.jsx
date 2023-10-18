@@ -1,25 +1,43 @@
 import React from "react";
-import "../css/contact.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import "../css/contact.css";
 
 const Contact = () => {
   return (
     <>
-      <div className="body pt-3 containerContact">
-      <div class="row pt-5">
+      <div className="bodyContact pt-3 containerContact">
+        <div class="row pt-5">
           <div class="col-md-6 offset-md-3">
             <h2>Contáctanos</h2>
           </div>
         </div>
         <hr class="divider" />
-        <p class="col-md-6 offset-md-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quae iure ut odit accusantium similique delectus? Maiores quod sit quibusdam ut voluptatem, cum perspiciatis repudiandae ea incidunt, voluptates mollitia optio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, neque at. Molestiae vitae similique quaerat illo eum eos nemo sint?</p>
-        <div class="container">
+        <p class="col-md-6 offset-md-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+          quae iure ut odit accusantium similique delectus? Maiores quod sit
+          quibusdam ut voluptatem, cum perspiciatis repudiandae ea incidunt,
+          voluptates mollitia optio. Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Hic, neque at. Molestiae vitae similique quaerat
+          illo eum eos nemo sint?
+        </p>
+        <div class="container pt-4">
           <div class="innerwrap">
             <section class="section1 clearfix pb-4">
               <div class="textcenter">
-              <label for="card3" class="button bWh" aria-hidden="true">
-                 Whatsap 
-                </label>
+                <a href=" https://api.whatsapp.com/send?phone=34663531305">
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faWhatsapp}
+                    style={{ color: "#2ea41e" }}
+                    size="xl"
+                    className="whatB"
+                  />
+                </a>
+                <p>Directo a nuestro Whatsapp</p>
+              
+            
               </div>
             </section>
 
@@ -34,27 +52,12 @@ const Contact = () => {
                   referrerpolicy="no-referrer-when-downgrade"
                 ></iframe>
               </div>
-        
+
               <div class="col2 column2 last">
-                <div class="sec2innercont">
-                  <div class="sec2addr">
-                    <p>
-                     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                    </p>
-                    <p>
-                      <span class="collig">Phone :</span> xxxxxxxxxxxxxxxxxx
-                    </p>
-                    <p>
-                      <span class="collig">Email :</span>{" "}
-                      xxxxxxxxxxxx@gmail.com
-                    </p>
-                   
-                  </div>
-                </div>
+                <div class="sec2innercont"></div>
                 <div class="sec2contactform">
-                  <h3 class="">
-                   Déjanos tu consulta!
-                  </h3>
+                  <h3 class="">¡Déjanos tu consulta!</h3>
+                  <hr class="divider" />
                   <form action="">
                     <div class="clearfix">
                       <input
@@ -62,7 +65,6 @@ const Contact = () => {
                         type="text"
                         placeholder="Nombre y apellido"
                       />
-                 
                     </div>
                     <div class="clearfix">
                       <input
@@ -70,19 +72,21 @@ const Contact = () => {
                         type="Email"
                         placeholder="Email"
                       />
-                    
                     </div>
-                    <div class="clearfix">
+                    <div class="clearfix pb-3">
                       <textarea name="textarea" id="" cols="30" rows="7">
-                        Your message here...
+                        Tu mensaje aquí
                       </textarea>
                     </div>
-                    <label  class="button bWh btnSend" aria-hidden="true" type="submit" value="Send" >
-                 Enviar
-                </label>
-                    {/* <div class="clearfix">
-                      <input type="submit" value="Send" />
-                    </div> */}
+                    <label
+                      class="button bWh btnSend"
+                      aria-hidden="true"
+                      type="submit"
+                      value="Send"
+                    >
+                      Enviar
+                    </label>
+                    
                   </form>
                 </div>
               </div>
