@@ -1,18 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
 .ContainerC {
+    display: flex;
     width: 100%;
     margin-top: 0;
     height: 700px;
   object-fit: scale-down;
     
   }
+
+  .BtnText {
+      justify-content: flex-start;
+      flex-direction: column;
+      width: 300px;
+      margin-bottom: 15%;
+  }
   .text {
+
     font-family: 'Bebas Neue', sans-serif !important;
  
     color:#cd7e3e;
   
    text-align: center;
-    border-bottom: .5vw solid #cd7e3e;
+   
 
  
 
@@ -21,20 +30,22 @@
  
 
   .buttom{
-  
+    display: flex;
+   justify-content: flex-start;
     color: rgba(255, 255, 255, 0.9) !important;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     padding: 0.5em 1.2em;
     background: #ffcc8f;
     border: 2px solid;
     border-color: #cd7e3e;
     border-radius: 30px;
-    position: relative;
+  
     outline: none;
     transition: background-color 0.1s linear;
     padding: 21px 34px;
     margin-top: 30px;
+    margin-left: 50px;
   
   
   

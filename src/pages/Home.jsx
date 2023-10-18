@@ -5,6 +5,7 @@ import SectionClinic from '../components/SectionClinic'
 import SectionCourses from '../components/SectionCourses'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+import About from '../components/About'
 
 
 
@@ -12,10 +13,16 @@ import Footer from '../components/Footer'
 const Home = () => {
   return (
    <>
+  
+ 
    <NavBar/>
+   <div id='Slider'>
+    
    <Slider/>
+    </div>
    <SectionClinic/>
    <SectionCourses/>
+   <About/>
    <Contact/>
    <div className="wh">
           <a
