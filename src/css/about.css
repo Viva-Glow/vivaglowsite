@@ -190,6 +190,9 @@
   border-bottom: color #7e634e; ;
 
 }
+.container{
+	padding-bottom: 0px !important;	
+}
  
  
 }
