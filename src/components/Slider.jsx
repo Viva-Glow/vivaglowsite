@@ -13,9 +13,9 @@ function Slider () {
 
       <img className='Carousel' src="https://img.freepik.com/foto-gratis/encantadora-mujer-joven-relajada-suave-haciendo-procedimiento-cosmetologico-aplicando-crema-facial-cara-dedos-sonriendo-ampliamente-sintiendose-perfecta-cuidando-piel_176420-24010.jpg?size=626&ext=jpg&ga=GA1.1.1597813839.1697641800&semt=sph" alt="" />
 
-        <Carousel.Caption className=' BtnText'>
+        <Carousel.Caption className=' BtnText '>
         <Fade> 
-          <h3 className='text'>TRATAMIENTOS
+          <h3 className='text titleSlider'>TRATAMIENTOS
           <br /> ESTÉTICOS EN VALENCIA</h3>
           </Fade>
         
@@ -31,7 +31,7 @@ function Slider () {
         <Carousel.Caption className=' BtnText'>
          
         <Fade> 
-          <h3 className='text'>ACADEMIA DE
+          <h3 className='text titleSlider'>ACADEMIA DE
           <br />FORMACIÓN PROFESIONAL</h3>
           </Fade>
          
