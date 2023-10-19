@@ -119,44 +119,7 @@ $accent-color: #355cc9;
 		justify-items: center;
 	}
 
-	// .info {
-	// 	position: relative;
-	// 	display: flex;
-	// 	align-items: center;
-	// 	color: #575757;
-	// 	grid-row: 3;
-	// 	&:not(:first-of-type):before {
-	// 		content: '';
-	// 		position: absolute;
-	// 		left: -0.9em;
-	// 		height: 18px;
-	// 		width: 1px;
-	// 		background-color: #ccc;
-	// 	}
-	// 	span {
-	// 		font-size: 2em;
-	// 		font-weight: 700;
-	// 	}
-	// 	i {
-	// 		&:before {
-	// 			background: linear-gradient(40deg, $accent-color, rgb(67, 138, 243));
 
-	// 			-webkit-text-fill-color: transparent;
-	// 			// -webkit-background-clip: text;
-	// 		}
-	// 		font-size: 1.2em;
-	// 	}
-	// 	.icon {
-	// 		margin-left: 0.3em;
-	// 		span {
-	// 			display: block;
-	// 			margin-top: -0.25em;
-	// 			font-size: 0.8em;
-	// 			font-weight: 600;
-	// 			white-space: nowrap;
-	// 		}
-	// 	}
-	// }
 
 	.description {
 		grid-row: 5;
@@ -235,19 +198,7 @@ $accent-color: #355cc9;
 	}
 }
 
-// ::-webkit-scrollbar {
-// 	width: 5px;
-// }
-// ::-webkit-scrollbar-track {
-// 	background: #f1f1f1;
-// }
-// ::-webkit-scrollbar-thumb {
-// 	background: lighten($accent-color, 20%);
-// }
-// ::-webkit-scrollbar-thumb:hover {
-// 	background: $accent-color;
-// }
-// ----------------------add img
+
 .front4{
 background-image:url('https://img.freepik.com/foto-gratis/mujer-atractiva-recibiendo-procedimientos-belleza-facial-salon-spa_1098-18097.jpg?w=1380&t=st=1697413177~exp=1697413777~hmac=5cad5c1c659264ed09eaf61f8ba651505cfa232cb358a8a575cd152476744d6a') ;
 }
@@ -289,4 +240,16 @@ background-image:url('https://img.freepik.com/foto-gratis/mujer-atractiva-recibi
 }
 .buttonCourses{
 	display:inline-block;
+}
+.tituloPC{
+	font-family: 'MontSerrat UltraLight', Arial, Sans-Serif;
+    font-size: 45px;
+    line-height: 45px;
+	color: #7e634e;
+}
+.tituloPC1 h2{
+	font-family: 'MontSerrat UltraLight', Arial, Sans-Serif;
+    font-size: 45px ;
+    line-height: 45px;
+	color: #cdb88e;
 }

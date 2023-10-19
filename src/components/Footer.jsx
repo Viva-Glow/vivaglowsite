@@ -66,7 +66,7 @@ const Footer = () => {
       </ul>
       <ul class="CTA">
       <li>&copy; Viva Glow</li><br />
-          <li>Todos los derechos reservados</li>
+          <li>Todos los derechos reservados</li><br />
       <li>Develop by <a href="#">xxxx</a> </li>
          
         

@@ -1,42 +1,38 @@
 .logoNavbar {
   width: 100px;
-
 }
 .Navbar {
-
   position: fixed;
   z-index: 100;
   width: 100%;
-
-  
-
 }
 .Navbar-bg {
   background-color: rgba(0, 0, 0, 0.856);
 }
 
-.Navbar-brand{
-padding-left: 100px;
-padding-right: 100px;
-
+.Navbar-brand {
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
- .navlink {
- margin-left: 50px;
- margin-right: 50px;
- display: flex;
-align-items:flex-end;
+.navlink {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  align-items: flex-end;
   color: rgb(125, 77, 78);
-  font-family:  serif;
-  padding-top: 0
+   padding-top: 0;
+   font-family: 'MontSerrat Bold', Arial, Sans-Serif;
+    font-size: 12px;
+    text-transform: uppercase;
+
 }
 .navbar-nav-scroll {
-  max-height: var(--bs-scroll-height,75vh);
-   overflow-y:visible; 
- 
+  max-height: var(--bs-scroll-height, 75vh);
+  overflow-y: visible;
 }
 
-.navlink:hover{
+.navlink:hover {
   color: rgb(126, 99, 78);
 }
 .Navbar-bg {
@@ -45,17 +41,14 @@ align-items:flex-end;
   z-index: 1000;
 }
 
-
-@media  (Max-width: 991px) {
-  
-.navlink {
+@media (max-width: 991px) {
+  .navlink {
     padding-left: 5 !important;
     margin-left: 0;
   }
   .Navbar-brand {
-
-   display: flex;
-   justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
   }
   .navbar-collapse {
     height: 140px;
@@ -68,4 +61,3 @@ align-items:flex-end;
     display: none !important;
   }
 }
-

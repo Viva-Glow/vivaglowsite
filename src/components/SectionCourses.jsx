@@ -9,7 +9,7 @@ const SectionCourses = () => {
       {/* banner academy----------------- */}
       <div class="container text-center containerCoursesBanner p-2 ">
         <div class="row p-4">
-          <div class="  tituloP">
+          <div class="  tituloPC">
             <h2>
               <strong>Cursos a tu alcance </strong>
             </h2>
@@ -26,8 +26,8 @@ const SectionCourses = () => {
       <div class="container text-center containerCourses">
         {/* Title clinic------------ */}
         <div class="row pt-5">
-          <div class="col-md-6 offset-md-3">
-            <h2>Academia de formacion profesional</h2>
+          <div class="col-md-6 offset-md-3 tituloPC1">
+            <h2>Academia de formación profesional</h2>
           </div>
         </div>
         <hr class="divider" />

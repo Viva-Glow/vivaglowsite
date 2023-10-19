@@ -9,7 +9,7 @@ const Contact = () => {
     <>
       <div className="bodyContact pt-3 containerContact">
         <div class="row pt-5">
-          <div class="col-md-6 offset-md-3">
+          <div class="col-md-6 offset-md-3 titleCO">
             <h2>Contáctanos</h2>
           </div>
         </div>
@@ -55,7 +55,7 @@ const Contact = () => {
 
               <div class="col2 column2 last">
                 <div class="sec2innercont"></div>
-                <div class="sec2contactform">
+                <div class="sec2contactform titleCO1">
                   <h3 class="">¡Déjanos tu consulta!</h3>
                   <hr class="divider" />
                   <form action="">

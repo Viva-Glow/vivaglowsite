@@ -1,16 +1,4 @@
-/* * {
-  margin: 0px;
-  padding: 0px;
-}
-*,
-*:after,
-*:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  box-sizing: border-box;
-} */
+
 
 .clearfix:before,
 .clearfix:after {
@@ -44,6 +32,16 @@ select:focus {
 ::-webkit-input-placeholder {
   color: #666;
   font-weight: 300;
+}
+
+.titleCO h2{
+  font-family: 'MontSerrat UltraLight', Arial, Sans-Serif;
+    font-size: 45px ;
+    line-height: 45px;
+	color: #cdb88e;
+}
+.titleCO1{
+  color: #7e634e;
 }
 
 /* Contact Form Styling */

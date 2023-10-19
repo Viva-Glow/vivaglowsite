@@ -56,7 +56,7 @@ const SectionClinic = () => {
       <div class="container text-center containerWelcome">
         <div className="row ">
         <div class="col-md-6 offset-md-3">
-          <h1 className="tituloP">
+          <h1 className="tituloP tituloPB">
             Bienvenidos a <strong>Viva Glow</strong>
           </h1>
           </div>
@@ -78,8 +78,8 @@ const SectionClinic = () => {
       <div class="container text-center containerClinic">
         {/* Title clinic------------ */}
         <div class="row ">
-          <div class="col-md-6 offset-md-3">
-            <h2>Conoce nuestros tratamientos</h2>
+          <div class="col-md-6 offset-md-3 tituloP  tituloPB " >
+            <h2>Conoce nuestros tratamientos</h2> 
           </div>
         </div>
         <hr class="divider" />
