@@ -17,30 +17,7 @@ import "swiper/css/autoplay";
 const SectionClinic = () => {
   return (
     <>
-      {/* TARJETA DISEÑADA EXTRA----- */}
-      {/* <div class="wrapper cardPresentation2">
-        <div class="card cardPresentaion">
-          <img
-            className="imgPresentation"
-            src="https://img.freepik.com/vector-gratis/fondo-floral-acuarela-pintada-mano_23-2149026397.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
-            width="640"
-            height="640"
-            alt=""
-          />
-          <div className="figcap">
-            <blockquote>
-              We shape our tools and then the tools shape us.
-            </blockquote>
-            <cite>
-              Attributed to Winston Churchill, Marshall McLuhan, and John
-             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero repudiandae numquam saepe perspiciatis ex. Optio?
-            </cite>
-           
-          </div>
-        </div>
-      </div> */}
-      {/* FIN TARJETA DISEÑADA EXTRA----- */}
-
+    
 
 
       <div class="container text-center containerClinicBanner p-2 ">
@@ -55,7 +32,7 @@ const SectionClinic = () => {
       {/* welcome Title ------------------------- */}
       <div class="container text-center containerWelcome">
         <div className="row ">
-        <div class="col-md-6 offset-md-3">
+        <div class="col-md-6 offset-md-3 mediaTitle">
           <h1 className="tituloP tituloPB">
             Bienvenidos a <strong>Viva Glow</strong>
           </h1>

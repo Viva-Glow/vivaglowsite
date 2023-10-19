@@ -224,3 +224,8 @@ background-color: #575757;
 .swiper-button-prev{
 	color: #646464 !important;
 }
+@media only screen and (max-width: 768px) {
+	.tituloPB{
+		padding-top: 50px ;
+	}
+}
