@@ -170,6 +170,10 @@ select:focus {
   body .sec2map {
     height: 250px !important;
   }
+  .section2 .sec2contactform h3{
+    margin-top: 50px;
+    font-size: 25px !important;
+  }
 }
 @media only screen and (max-width: 768px) {
   .section2 .sec2addr {
