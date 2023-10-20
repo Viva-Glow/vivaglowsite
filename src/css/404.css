@@ -1,0 +1,28 @@
+.notF {
+    display: flex;
+    position: relative;
+    width: 100%;
+    
+  }
+  .btn a{
+    text-decoration: none !important;
+    color: brown !important;
+
+  }
+  .btn1{
+    padding-top: 2%;
+  }
+  .btn4:hover{
+    transform:scale(1.5);
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .btn404{
+    background-color: rgba(245, 245, 220, 0.503);
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 750px) {
+
+    .btn404 {
+      font-size: 10px !important;
+    }
+  }
