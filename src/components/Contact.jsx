@@ -1,10 +1,43 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import React, { useState }  from "react";
+import emailjs from '@emailjs/browser';
 import "../css/contact.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
-const Contact = () => {
+// npm i @emailjs/browser 
+
+const Result = () => {
+  return <p>Mensaje enviado</p>;
+};
+function ContactComponent(props) {
+  const [result, showResult] = useState(false);
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_8u41qbz",
+        "template_4flrfks",
+        e.target,
+        "CEW7CYQtis4Zr1wnl"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+           //alert("Mensaje enviado");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+    showResult(true);
+  };
+
+  //hide result
+  setTimeout(() => {
+    showResult(false);
+  }, 3000);
   return (
     <>
       <div className="bodyContact pt-3 containerContact">
@@ -36,8 +69,6 @@ const Contact = () => {
                   />
                 </a>
                 <p>Directo a nuestro Whatsapp</p>
-              
-            
               </div>
             </section>
 
@@ -58,35 +89,62 @@ const Contact = () => {
                 <div class="sec2contactform titleCO1">
                   <h3 class="">¡Déjanos tu consulta!</h3>
                   <hr class="divider" />
-                  <form action="">
+                  {/* -------------------FORM----------------- */}
+                  <form action="" onSubmit={sendEmail} className="form">
+
                     <div class="clearfix">
                       <input
                         class="col first"
                         type="text"
                         placeholder="Nombre y apellido"
+                        name="user_name"
+                        className="effect-1 "
+                        id="username"
+                        required
+                        pattern="^(?! )[A-Za-z\s]*$"
+                        minLength="2"
+                        maxLength="40"
                       />
                     </div>
                     <div class="clearfix">
                       <input
                         class="col2 first"
-                        type="Email"
-                        placeholder="Email"
+                        type="email"
+                        name="email"
+                        className="effect-1"
+                        placeholder="Correo electrónico"
+                        pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+                        maxLength="30"
+                        required
                       />
                     </div>
                     <div class="clearfix pb-3">
-                      <textarea name="textarea" id="" cols="30" rows="7">
-                        Tu mensaje aquí
-                      </textarea>
+                      <textarea  id="" cols="30" rows="7"
+                          
+                           name="message"
+                           className="effect-1 "
+                           placeholder="Mensaje"
+                           required
+                           maxLength="500"
+                         
+                           minLength="2"
+                      />
+                       
+                     
                     </div>
-                    <label
-                      class="button bWh btnSend"
+
+                    <div  >
+                    <input
+                     class=" bWh whatCont"
                       aria-hidden="true"
                       type="submit"
-                      value="Send"
-                    >
-                      Enviar
-                    </label>
+                      value="Enviar"
+                    />
+                     
                     
+                    </div>
+                  
+                    <div>{result ? <Result /> : null}</div>
                   </form>
                 </div>
               </div>
@@ -96,6 +154,6 @@ const Contact = () => {
       </div>
     </>
   );
-};
+}
 
-export default Contact;
+export default  ContactComponent;

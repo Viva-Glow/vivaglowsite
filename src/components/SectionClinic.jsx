@@ -33,7 +33,7 @@ const SectionClinic = () => {
       <div class="container text-center containerWelcome">
         <div className="row ">
         <div class="col-md-6 offset-md-3 mediaTitle">
-          <h1 className="tituloP tituloPB">
+          <h1 className="tituloP tituloPB tituloPB1">
             Bienvenidos a <strong>Viva Glow</strong>
           </h1>
           </div>
@@ -55,7 +55,7 @@ const SectionClinic = () => {
       <div class="container text-center containerClinic">
         {/* Title clinic------------ */}
         <div class="row ">
-          <div class="col-md-6 offset-md-3 tituloP  tituloPB " >
+          <div class="col-md-6 offset-md-3 tituloP  tituloPB tituloPB2 " >
             <h2>Conoce nuestros tratamientos</h2> 
           </div>
         </div>
@@ -77,11 +77,11 @@ const SectionClinic = () => {
           //  spaceBetween={50}
           slidesPerView="auto"
           navigation
-          autoplay={{ delay: 1000 }}
+          autoplay={{ delay: 2000 }}
           //  pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
+          // onSwiper={(swiper) => console.log(swiper)}
+          // onSlideChange={() => console.log("slide change")}
         >
           {/* card1------------------- */}
           <SwiperSlide>
