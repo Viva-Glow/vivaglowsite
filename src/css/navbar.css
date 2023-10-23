@@ -1,82 +1,81 @@
+.logoNavbar {
+  width: 100px;
 
+}
+.Navbar {
+  background-color: rgba(255, 255, 255, 0.521);
 
+  position: fixed;
+  z-index: 100;
+  width: 100%;
 
-  .logoNavbar {
-    width: 100px;
   
-  }
-  .Navbar {
-    background-color: rgba(255, 255, 255, 0.521);
-  
-    position: fixed;
-    z-index: 100;
-    width: 100%;
-  
-    
-  
-  }
-  .Navbar-bg {
-    background-color: rgb(255, 255, 255);
-  }
-  
-  .Navbar-brand{
-  padding-left: 100px;
-  padding-right: 100px;
-  
-  }
-  
-   .navlink {
-    margin-left: 50px;
+
+}
+.Navbar-bg {
+  background-color: rgb(255, 255, 255);
+}
+
+.Navbar-brand{
+padding-left: 100px;
+padding-right: 100px;
+
+}
+
+ .navlink {
+  margin-left: 50px;
 margin-right: 50px;
 display: flex;
 align-items: flex-end;
 color: rgb(125, 77, 78);
- padding-top: 0;
- font-family: 'MontSerrat Bold', Arial, Sans-Serif;
-  font-size: 12px;
-  text-transform: uppercase;
- 
-  }
-  .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
-    color: #caa180;
-    transition-duration: 2s;
- }
+padding-top: 0;
+font-family: 'MontSerrat Bold', Arial, Sans-Serif;
+font-size: 12px;
+text-transform: uppercase;
 
-  .navbar-nav-scroll {
-    max-height: var(--bs-scroll-height,75vh);
-     overflow-y:visible; 
-   
-  }
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+ color:  rgb(125, 77, 78);
+ transition-duration: 2s;
+}
+.navbar-nav-scroll {
+  max-height: var(--bs-scroll-height,75vh);
+   overflow-y:visible; 
+ 
+}
+
+.navlink:hover{
+  color: rgb(218, 171, 136);
+}
+.Navbar-bg {
+  background-color: rgb(255, 255, 255);
+  transition-duration: 1s;
+  z-index: 1000;
+}
+
+
+@media  (Max-width: 991px) {
   
+.navlink {
+    padding-left: 5 !important;
+    margin-left: 0;
+  }
   .navlink:hover{
-    color: rgb(126, 99, 78);
+    color: rgb(218, 171, 136);
   }
-  .Navbar-bg {
-    background-color: rgb(255, 255, 255);
-    transition-duration: 1s;
-    z-index: 1000;
+  .Navbar-brand {
+
+   display: flex;
+   justify-content: space-between;
   }
-  
-  
-  @media  (Max-width: 991px) {
-    
-  .navlink {
-      padding-left: 5 !important;
-      margin-left: 0;
-    }
-    .Navbar-brand {
-  
-     display: flex;
-     justify-content: space-between;
-    }
-    .navbar-collapse {
-      height: 200px;
-    }
-  
-    .container-fluid {
-      margin-top: 7px;
-    }
-    .New {
-      display: none !important;
-    }
+  .navbar-collapse {
+    height: 150px;
   }
+
+  .container-fluid {
+    margin-top: 7px;
+  }
+  .New {
+    display: none !important;
+  }
+}

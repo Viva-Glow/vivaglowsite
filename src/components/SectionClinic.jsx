@@ -42,7 +42,7 @@ const SectionClinic = () => {
               Somos tu destino para descubrir una belleza que resalte tu
               autenticidad. Nuestro equipo de expertos está comprometido en
               ofrecerte tratamientos de vanguardia que te sorprenderán. Te
-              esperamos en el centro de Valencia, te acompañaremos a alcanzar
+              esperamos en el centro de Valencia. Te acompañaremos a alcanzar
               tus objetivos de bienestar y plenitud.
             </p>
 
