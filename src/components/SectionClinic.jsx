@@ -100,9 +100,9 @@ const SectionClinic = () => {
                 src="https://img.freepik.com/foto-gratis/persona-que-recibe-tratamiento-belleza-microagujas_23-2149334245.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
                 alt=""
               />
-              <figcaption>
+              <figcaption className="fig1 figA">
                
-                <h4>INNOVADOR TRATAMIENTO REDUCTOR</h4> <br />
+                <h4>INNOVADOR TRATAMIENTO REDUCTOR</h4> 
 
                 <p>La solución definitiva para eliminar esos cúmulos de grasa que el ejercicio no puede alcanzar. ¡Transforma tu figura y recupera tu confianza!</p>
 {/*                 
@@ -113,13 +113,13 @@ const SectionClinic = () => {
           </SwiperSlide>
           {/* card2------------------- */}
           <SwiperSlide>
-          <figure>
+          <figure >
               {/* <h1>descrubre nuestro inovadortratamiento reductor</h1> */}
               <img
                 src="https://img.freepik.com/foto-gratis/persona-que-recibe-tratamiento-belleza-microagujas_23-2149334245.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
                 alt=""
               />
-              <figcaption>
+              <figcaption className="fig1 figA">
                
                 <h4>DÍ ADIOS A LAS MANCHAS DE TU PIEL</h4> <br />
 
@@ -138,7 +138,7 @@ const SectionClinic = () => {
                 src="https://img.freepik.com/foto-gratis/persona-que-recibe-tratamiento-belleza-microagujas_23-2149334245.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
                 alt=""
               />
-              <figcaption>
+              <figcaption className="fig1  figB">
                
                 <h4>OLVÍDATE DE TUS ARRUGAS</h4> <br />
 
@@ -157,9 +157,9 @@ const SectionClinic = () => {
                 src="https://img.freepik.com/foto-gratis/persona-que-recibe-tratamiento-belleza-microagujas_23-2149334245.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
                 alt=""
               />
-              <figcaption>
+              <figcaption className="fig1 figC">
                
-                <h4>TRATAMIENTO ANTI-ACNÉ</h4> <br />
+                <h4>TRATAMIENTO ANTI-ACNÉ</h4>
 
                 <p>La confianza empieza con una piel impecable. Nuestro tratamiento antiacné te libera de las preocupaciones y te devuelve una piel clara y radiante. ¡Descubre la belleza que hay bajo cada granito y recupera tu autoestima!</p>
 {/*                 
@@ -175,7 +175,7 @@ const SectionClinic = () => {
                 src="https://img.freepik.com/foto-gratis/persona-que-recibe-tratamiento-belleza-microagujas_23-2149334245.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
                 alt=""
               />
-              <figcaption>
+              <figcaption className="fig1 figB" >
                
                 <h4>REDUCTOR INTENSIVO </h4> <br />
 
@@ -193,7 +193,7 @@ const SectionClinic = () => {
                 src="https://img.freepik.com/foto-gratis/persona-que-recibe-tratamiento-belleza-microagujas_23-2149334245.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
                 alt=""
               />
-              <figcaption>
+              <figcaption className="fig1 figB">
                
                 <h4>LEVANTAMIENTO DE GLÚTEOS </h4> <br />
 
@@ -211,7 +211,7 @@ const SectionClinic = () => {
                 src="https://img.freepik.com/foto-gratis/persona-que-recibe-tratamiento-belleza-microagujas_23-2149334245.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
                 alt=""
               />
-              <figcaption>
+              <figcaption className="fig1 figB">
                
                 <h4>DEPILACIÓN LASER DIODO DE ÚLTIMA GENERACIÓN</h4> <br />
 

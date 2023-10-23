@@ -37,6 +37,11 @@ color: rgb(125, 77, 78);
   text-transform: uppercase;
  
   }
+  .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #caa180;
+    transition-duration: 2s;
+ }
+
   .navbar-nav-scroll {
     max-height: var(--bs-scroll-height,75vh);
      overflow-y:visible; 

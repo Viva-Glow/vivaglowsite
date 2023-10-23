@@ -1,10 +1,10 @@
-import React, { useState }  from "react";
-import emailjs from '@emailjs/browser';
+import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
 import "../css/contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
-// npm i @emailjs/browser 
+// npm i @emailjs/browser
 
 const Result = () => {
   return <p>Mensaje enviado</p>;
@@ -24,7 +24,7 @@ function ContactComponent(props) {
       .then(
         (result) => {
           console.log(result.text);
-           //alert("Mensaje enviado");
+          //alert("Mensaje enviado");
         },
         (error) => {
           console.log(error.text);
@@ -48,13 +48,13 @@ function ContactComponent(props) {
         </div>
         <hr class="divider" />
         <p class="col-md-6 offset-md-3">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
-          quae iure ut odit accusantium similique delectus? Maiores quod sit
-          quibusdam ut voluptatem, cum perspiciatis repudiandae ea incidunt,
-          voluptates mollitia optio. Lorem ipsum dolor, sit amet consectetur
-          adipisicing elit. Hic, neque at. Molestiae vitae similique quaerat
-          illo eum eos nemo sint?
+          No dudes en ponerte en contacto con nosotros a través de los medios de
+          comunicación que prefieras. Ya sea que desees programar una consulta,
+          obtener información adicional sobre nuestros servicios, nuestra academia o cualquier
+          otra consulta, nuestro equipo en <strong className="strongCont">Viva Glow</strong> está
+          listo para atenderte.
         </p>
+        <p> ¡Contáctanos hoy mismo y da el primer paso hacia una transformación de belleza y confianza!</p>
         <div class="container pt-4">
           <div class="innerwrap">
             <section class="section1 clearfix pb-4">
@@ -91,7 +91,6 @@ function ContactComponent(props) {
                   <hr class="divider" />
                   {/* -------------------FORM----------------- */}
                   <form action="" onSubmit={sendEmail} className="form">
-
                     <div class="clearfix">
                       <input
                         class="col first"
@@ -119,31 +118,28 @@ function ContactComponent(props) {
                       />
                     </div>
                     <div class="clearfix pb-3">
-                      <textarea  id="" cols="30" rows="7"
-                          
-                           name="message"
-                           className="effect-1 "
-                           placeholder="Mensaje"
-                           required
-                           maxLength="500"
-                         
-                           minLength="2"
+                      <textarea
+                        id=""
+                        cols="30"
+                        rows="7"
+                        name="message"
+                        className="effect-1 "
+                        placeholder="Mensaje"
+                        required
+                        maxLength="500"
+                        minLength="2"
                       />
-                       
-                     
                     </div>
 
-                    <div  >
-                    <input
-                     class=" bWh whatCont"
-                      aria-hidden="true"
-                      type="submit"
-                      value="Enviar"
-                    />
-                     
-                    
+                    <div>
+                      <input
+                        class=" bWh whatCont"
+                        aria-hidden="true"
+                        type="submit"
+                        value="Enviar"
+                      />
                     </div>
-                  
+
                     <div>{result ? <Result /> : null}</div>
                   </form>
                 </div>
@@ -156,4 +152,4 @@ function ContactComponent(props) {
   );
 }
 
-export default  ContactComponent;
+export default ContactComponent;

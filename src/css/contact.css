@@ -43,6 +43,9 @@ select:focus {
 .titleCO1{
   color: #7e634e;
 }
+.strongCont{
+  color: #7e634e;
+}
 
 /* Contact Form Styling */
 .containerContact {
@@ -129,7 +132,7 @@ select:focus {
 .section2 .sec2contactform input[type="submit"] {
   
   display: inline-block;
-  border-radius: 40px;
+
   margin-left: 10px;
   color: #ffffff;
   font-size: 25px ;
@@ -233,7 +236,7 @@ select:focus {
 .bWh {
   background-color: #7e634e;
   display: inline-block;
-  border-radius: 40px;
+
   margin-left: 10px;
 }
 .btnSend {

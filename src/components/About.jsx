@@ -20,15 +20,35 @@ const About = () => {
                 <hr class="divider" />
               </div>
               <div class="text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries
+                <p>
+                  {" "}
+                  En <strong className="strongT">Clínica Viva Glow</strong> estamos orgullosos de ser
+                  el punto de referencia en Valencia para quienes buscan mejorar
+                  su apariencia y bienestar a través de tratamientos estéticos
+                  seguros y eficaces.
+                </p>
+                <p>
+                  Con una ubicación privilegiada en la hermosa ciudad de
+                  Valencia, te esperamoscon con nuestro equipo de especialistas
+                  altamente capacitados, comprometidos en proporcionar a
+                  nuestros pacientes una atención de calidad y resultados
+                  excepcionales. Valoramos la individualidad de cada cliente y
+                  trabajamos de manera personalizada para diseñar planes de
+                  tratamiento que se adapten a sus necesidades y objetivos
+                  únicos.
+                </p>
+                <p>
+                  Nuestra misión es ayudarte a sentirte más seguro y confiado en
+                  tu propia piel, y estamos comprometidos en brindarte una
+                  experiencia que sea cómoda, acogedora y transformadora.
+                </p>
+                <p>
+                  Te invitamos a descubrir cómo podemos ayudarte a alcanzar tus
+                  metas estéticas de manera segura y efectiva. Estamos aquí para apoyarte en cada paso del camino.
+                </p>
               </div>
               <div class="email">
                 <p> Encuentranos aquí: </p>
-               
               </div>
               <a href=" https://api.whatsapp.com/send?phone=34663531305">
                 {" "}

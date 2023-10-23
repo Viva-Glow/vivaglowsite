@@ -142,7 +142,7 @@
 }
 .sec-title {
   position: relative;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 .sec-title .title {
   position: relative;
@@ -163,6 +163,9 @@
 }
 .email p{
 	color: #7e634e;
+}
+.strongT{
+  color: #7e634e;
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
