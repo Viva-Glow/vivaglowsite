@@ -68,7 +68,7 @@ figure {
 		margin: 0;
 		padding: 0;
 		color: white;
-		font-size: 40px;
+		font-size: 20px;
 		font-weight: 100;
 		line-height: 1;
 		opacity: 1;
@@ -92,7 +92,7 @@ figure {
 		color: white;
 		line-height: 1;
 		transition: 0.25s;
-		h3 {
+		h4 {
 			margin: 0 0 20px;
 			padding: 0;
 		}
@@ -159,6 +159,17 @@ background-attachment: fixed;
 background-repeat: no-repeat;
 background-position: center;
 }
+
+.buttonCourses a{
+	text-decoration: none;
+	color: antiquewhite;
+}
+.buttonCourses a:hover{
+	color: #7E634E;
+}
+.buttonCourses:hover{
+	color: #7E634E;
+}
 .tituloP{
 	color: #575757;
 	letter-spacing: 1px;
@@ -179,6 +190,7 @@ background-position: center;
     font-size: 45px;
     line-height: 45px;
 	color: #cdb88e;
+	
 }
 
 
@@ -223,6 +235,15 @@ background-color: #575757;
 }
 .swiper-button-prev{
 	color: #646464 !important;
+}
+.pSlider{
+	color:   #CCB892;
+	text-transform: uppercase;
+	
+}
+.pSlider2{
+	color:  #7E634E;
+	text-transform: uppercase;
 }
 @media only screen and (max-width: 768px) {
 	

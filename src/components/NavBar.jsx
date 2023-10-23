@@ -36,10 +36,10 @@ function NavBar() {
             navbarScroll
           >
             <Nav.Link className="navlink" href="#Clinic">
-              Tratamientos
+              <b>Tratamientos</b>
             </Nav.Link>
             <Nav.Link className="navlink" href="#Courses">
-              Cursos
+              <b>Academia</b>
             </Nav.Link>
             <Navbar.Brand className="Navbar-brand d-none d-lg-block" href="#">
               <a href="">
@@ -48,10 +48,10 @@ function NavBar() {
             </Navbar.Brand>
 
             <Nav.Link className="navlink" href="#About">
-              Nosotros
+             <b>Nosotros</b> 
             </Nav.Link>
             <Nav.Link className="navlink" href="#Contact">
-              Contáctanos
+             <b>Contáctanos</b> 
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

@@ -11,13 +11,13 @@ const SectionCourses = () => {
         <div class="row p-4">
           <div class="  tituloPC">
             <h2>
-              <strong>Cursos a tu alcance </strong>
+              <strong>CONVIERTE TU PASIÓN EN PROFESIÓN</strong>
             </h2>
           </div>
         </div>
         <div className="row pb-4">
-          <button for="card1" class="button buttonCourses" aria-hidden="true">
-            Quiero saber más
+          <button  class="button buttonCourses" aria-hidden="true">
+          <a href="">Quiero más info por whatsapp</a>  
           </button>
         </div>
       </div>

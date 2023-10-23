@@ -1,16 +1,41 @@
-import React from "react";
-import NavBar from "../components/NavBar";
-import Slider from "../components/Slider";
-import SectionClinic from "../components/SectionClinic";
-import SectionCourses from "../components/SectionCourses";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
-import About from "../components/About";
+import React, { useEffect, useState } from 'react'
+import NavBar from '../components/NavBar'
+import Slider from '../components/Slider'
+import SectionClinic from '../components/SectionClinic'
+import SectionCourses from '../components/SectionCourses'
+import Contact from '../components/Contact'
+import Footer from '../components/Footer'
+import About from '../components/About'
+import Loading from '../components/Loading'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import "../css/home.css";
+
+
+
 
 const Home = () => {
+
+const [loading, setLoading ]=useState(true);
+useEffect (()=> {
+  setTimeout (()=> {
+    setLoading (false);
+  }, 2500)
+})
+
+
+   
   return (
-    <>
-      <NavBar />
+   <>
+   <div>
+
+{loading ? (
+  <Loading/>
+):
+(
+
+<div>
+<NavBar />
       <div id="Slider">
         <Slider />
       </div>
@@ -35,12 +60,22 @@ const Home = () => {
           target="_blank"
         >
           {" "}
-          <i className="fa fa-whatsapp whatsapp-icon"></i>
+          <FontAwesomeIcon
+            icon={faWhatsapp}
+            size="xl"
+            style={{ color: "#ffffff" }}
+          />
         </a>
       </div>
       <Footer />
-    </>
-  );
-};
+</div>
+)
 
-export default Home;
+}
+   </div>
+
+
+   </>
+  ) ;}
+
+export default Home

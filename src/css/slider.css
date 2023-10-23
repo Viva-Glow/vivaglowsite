@@ -61,6 +61,10 @@
 .carousel-indicators {
   display: none;
 }
+
+.BtnText a{
+  color: aliceblue!important;
+}
 @media (max-width: 991px) and (min-width: 0px) {
   .Carousel {
     height: 500px !important;

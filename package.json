@@ -26,7 +26,9 @@
     "react-awesome-reveal": "^4.2.5",
     "react-bootstrap": "^2.9.0",
     "react-dom": "^18.2.0",
+    "react-loader-spinner": "^5.4.5",
     "react-router-dom": "^6.16.0",
+    "react-spinners": "^0.13.8",
     "sass": "^1.69.3",
     "swiper": "^10.3.1"
   },
