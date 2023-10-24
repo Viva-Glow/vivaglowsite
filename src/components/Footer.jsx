@@ -12,11 +12,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        {/* <div class="text">
-          <h2>ABOUT ROSA</h2>
-          <div><i class="fas fa-asterisk"></i></div>
-          <p>ROSA is an enchanting and easy-to-use parallax Restaurant WordPress theme that allows you to tell your story in a dynamic, narrative and enjoyable way, making it perfect for restaurants, bakeries, bars or coffee shops.</p>
-      </div> */}
+     
         <div class="contact-container">
           <div class="social-media">
             <h2>Síguenos en nuestras redes</h2>
@@ -60,6 +56,7 @@ const Footer = () => {
         </a>
 
         <ul class="info">
+          <br />
           <li>
             {" "}
             <FontAwesomeIcon
@@ -70,6 +67,7 @@ const Footer = () => {
             Calle Convento de Santa Clara 12 B - piso 2 - puerta 4 - Valencia
           </li>
           <br />
+          <br />
           <li>
             <FontAwesomeIcon
               icon={faPhone}
@@ -78,6 +76,7 @@ const Footer = () => {
             />{" "}
             +34 689 818 115
           </li>
+          <br />
           <br />
           <li>
             {" "}
@@ -88,6 +87,7 @@ const Footer = () => {
             />{" "}
             rrrrrrrrrrrr@gmail.com
           </li>
+          <br />
           <br />
           <li>Horarios de atención: Lunes a Viernes / 10:00am - 20:00pm</li>
         </ul>

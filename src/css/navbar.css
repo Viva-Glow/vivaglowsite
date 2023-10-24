@@ -33,9 +33,9 @@ font-family: 'MontSerrat Bold', Arial, Sans-Serif;
 font-size: 12px;
 text-transform: uppercase;
 
-}
+ }
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
- color:  rgb(125, 77, 78);
+ color:  rgb(125, 77, 78) !important;
  transition-duration: 2s;
 }
 .navbar-nav-scroll {
@@ -45,7 +45,9 @@ text-transform: uppercase;
 }
 
 .navlink:hover{
-  color: rgb(218, 171, 136);
+  color: rgb(218, 171, 136) !important;
+  border-bottom: 2px solid rgb(218, 171, 136);
+  padding-bottom: 2px;
 }
 .Navbar-bg {
   background-color: rgb(255, 255, 255);
@@ -59,10 +61,10 @@ text-transform: uppercase;
 .navlink {
     padding-left: 5 !important;
     margin-left: 0;
+    padding-bottom: 15px !important;
+    
   }
-  .navlink:hover{
-    color: rgb(218, 171, 136);
-  }
+
   .Navbar-brand {
 
    display: flex;
@@ -70,6 +72,7 @@ text-transform: uppercase;
   }
   .navbar-collapse {
     height: 150px;
+    margin-top: 25px;
   }
 
   .container-fluid {
