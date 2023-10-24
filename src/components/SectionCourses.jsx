@@ -2,6 +2,7 @@ import React from "react";
 import "../css/courses.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { Fade } from "react-awesome-reveal";
 
 const SectionCourses = () => {
   return (
@@ -27,7 +28,9 @@ const SectionCourses = () => {
         {/* Title clinic------------ */}
         <div class="row pt-5">
           <div class="col-md-6 offset-md-3 tituloPC1">
+          <Fade>
             <h2>Academia de formación profesional</h2>
+            </Fade>
           </div>
         </div>
         <hr class="divider" />

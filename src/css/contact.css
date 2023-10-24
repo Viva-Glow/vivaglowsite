@@ -229,8 +229,8 @@ select:focus {
   width: 100%;
 }
 .map {
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 80%;
 }
 /* -------------------extra */
 .bWh {

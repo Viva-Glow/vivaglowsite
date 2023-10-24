@@ -3,6 +3,7 @@ import "../css/about.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faSquareInstagram } from "@fortawesome/free-brands-svg-icons";
+import { Fade } from "react-awesome-reveal";
 
 const About = () => {
   return (
@@ -13,10 +14,11 @@ const About = () => {
             <div class="inner-column">
               <div class="sec-title">
                 <div class="title titleAB">Conócenos</div>
-
+                <Fade>
                 <h2>
                   Alcanzamos <br /> Tu Mejor Versión
                 </h2>
+                </Fade>
                 <hr class="divider" />
               </div>
               <div class="text">

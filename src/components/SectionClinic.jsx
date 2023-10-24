@@ -13,6 +13,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/autoplay";
+import { Fade } from "react-awesome-reveal";
 
 const SectionClinic = () => {
   return (
@@ -32,9 +33,11 @@ const SectionClinic = () => {
       <div class="container text-center containerWelcome">
         <div className="row ">
           <div class="col-md-6 offset-md-3 mediaTitle">
+          <Fade>
             <h1 className="tituloP tituloPB tituloPB1">
               Bienvenidos a <strong>Viva Glow</strong>
             </h1>
+           </Fade>
           </div>
 
           <div class="col-md-6 offset-md-3 tituloP">
@@ -62,7 +65,9 @@ const SectionClinic = () => {
         {/* Title clinic------------ */}
         <div class="row ">
           <div class="col-md-6 offset-md-3 tituloP  tituloPB tituloPB2 ">
+          <Fade>
             <h2>Nuestros tratamientos</h2>
+            </Fade>
           </div>
         </div>
         <hr class="divider" />
@@ -86,7 +91,7 @@ const SectionClinic = () => {
           //  spaceBetween={50}
           slidesPerView="auto"
           navigation
-          autoplay={{ delay: 2000 }}
+          autoplay={{ delay: 4000 }}
           //  pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
           // onSwiper={(swiper) => console.log(swiper)}

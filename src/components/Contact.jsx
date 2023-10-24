@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 import "../css/contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { Fade } from "react-awesome-reveal";
 
 // npm i @emailjs/browser
 
@@ -43,7 +44,9 @@ function ContactComponent(props) {
       <div className="bodyContact pt-3 containerContact">
         <div class="row pt-5">
           <div class="col-md-6 offset-md-3 titleCO">
+          <Fade>
             <h2>Contáctanos</h2>
+            </Fade>
           </div>
         </div>
         <hr class="divider" />
@@ -59,13 +62,14 @@ function ContactComponent(props) {
           <div class="innerwrap">
             <section class="section1 clearfix pb-4">
               <div class="textcenter">
-                <a href=" https://api.whatsapp.com/send?phone=34663531305">
+                <a href=" https://api.whatsapp.com/send?phone=34689818115"  target='_blank'>
                   {" "}
                   <FontAwesomeIcon
                     icon={faWhatsapp}
                     style={{ color: "#2ea41e" }}
                     size="xl"
                     className="whatB pb-2"
+                  
                   />
                 </a>
                 <p>Directo a nuestro Whatsapp</p>
@@ -74,14 +78,10 @@ function ContactComponent(props) {
 
             <section class="section2 clearfix">
               <div class="col2 column1 first">
-                <iframe
-                  id="map_canvas"
-                  className="map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d197294.56469944443!2d-0.526320039246598!3d39.407668984522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4cf0efb06f%3A0xb4a351011f7f1d39!2sValencia!5e0!3m2!1ses!2ses!4v1694871377648!5m2!1ses!2ses"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
+              <iframe  id="map_canvas"
+                  className="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.0361550864523!2d-0.37908392347444697!3d39.46851191280385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4b1061bdf9%3A0x909a23b5c71d02de!2sC%2F%20del%20Convent%20de%20Sta.%20Clara%2C%2012%2C%2046002%20Val%C3%A8ncia!5e0!3m2!1ses!2ses!4v1698160922546!5m2!1ses!2ses" width="200" height="350"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              
+              <div className="pt-2"> <span>Calle Convento Santa Clara 12 B, piso 2, puerta 4 - Valencia</span></div>
               </div>
 
               <div class="col2 column2 last">

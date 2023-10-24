@@ -24,3 +24,6 @@ body::-webkit-scrollbar-thumb {
   border-radius: 30px;       /* roundness of the scroll thumb */
   border: 2px solid #cdb88e;  /* creates padding around scroll thumb */
 }
+#Contact {
+  scroll-margin-block-start: 100px !important;
+}
