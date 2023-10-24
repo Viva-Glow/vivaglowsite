@@ -11,10 +11,10 @@ const SectionCourses = () => {
       <div class="container text-center containerCoursesBanner p-2 ">
         <div class="row p-4">
           <div class="  tituloPC">
-            <h2><strong>ACADEMIA DE FORMACIÓN PROFESIONAL</strong></h2>
-            <h3 className="subtCap">
+            <h3><strong>ACADEMIA DE FORMACIÓN PROFESIONAL</strong></h3>
+            <h4 className="subtCap">
               Convierte tu pasión en profesión
-            </h3>
+            </h4>
             
           </div>
         </div>
