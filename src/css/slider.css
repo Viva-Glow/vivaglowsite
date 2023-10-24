@@ -54,6 +54,7 @@
 		
       transform: translateZ(80px) scale(0.94);
       border-color: #7D4D4E;
+      transition: 0.5s;
 
  
       

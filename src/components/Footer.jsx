@@ -7,6 +7,7 @@ import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faClock } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -89,7 +90,8 @@ const Footer = () => {
           </li>
           <br />
           <br />
-          <li>Horarios de atención: Lunes a Viernes / 10:00am - 20:00pm</li>
+          <li><FontAwesomeIcon icon={faClock}  style={{ color: "#7e634e" }}
+              size="xl"/>  Horarios de atención: Lunes a Viernes / 10:00am - 20:00pm</li>
         </ul>
         <ul class="CTA">
           <li>&copy; Viva Glow</li>

@@ -197,22 +197,29 @@ $accent-color: #355cc9;
 		}
 	}
 }
+.subtCap{
+	color:beige;
+}
+.tituloPC1 strong {
+	color: #7E634E;
+}
 
 
 .front4{
 background-image:url('https://img.freepik.com/foto-gratis/mujer-atractiva-recibiendo-procedimientos-belleza-facial-salon-spa_1098-18097.jpg?w=1380&t=st=1697413177~exp=1697413777~hmac=5cad5c1c659264ed09eaf61f8ba651505cfa232cb358a8a575cd152476744d6a') ;
 }
 .front3{
-	background-image:url('https://img.freepik.com/foto-gratis/mujer-hermosa-joven-flores-junto-cara_186202-5624.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=sph') ;
+	background-image:url('https://img.freepik.com/foto-gratis/mujer-aplicando-mascarilla-facial-clienta_1122-1352.jpg?size=626&ext=jpg&uid=R122209150&ga=GA1.1.1597813839.1697641800&semt=ais') ;
 	}
 	.front2{
-		background-image:url('https://img.freepik.com/fotos-premium/mujer-manos-cuello-mirando-abajo_23-2147647715.jpg?w=1380') ;
+		background-image:url('https://img.freepik.com/foto-gratis/terapeuta-irreconocible-realizando-maderoterapia-piernas-mujer-tratamiento-masaje-spa_637285-2126.jpg?size=626&ext=jpg&uid=R122209150&ga=GA1.1.1597813839.1697641800&semt=ais') ;
 		}
 		.front1{
-			background-image:url('https://img.freepik.com/foto-gratis/linda-mujer-procedimiento-rejuvenecimiento-piel_7502-7517.jpg?size=626&ext=jpg&ga=GA1.2.473773967.1686657261&semt=sph') ;
+			background-image:url('https://img.freepik.com/foto-gratis/mujer-joven-atravesando-tratamiento-microblading_23-2149102666.jpg?size=626&ext=jpg&uid=R122209150&ga=GA1.1.1597813839.1697641800&semt=ais') ;
 			}
+			// <a href="https://www.freepik.es/foto-gratis/terapeuta-irreconocible-realizando-maderoterapia-piernas-mujer-tratamiento-masaje-spa_25630526.htm#query=mujer%20maderoterapia%20tratamiento&position=1&from_view=search&track=ais">Imagen de Drazen Zigic</a> en Freepik
 .containerCourses{
-	padding: 100px ;
+	padding: 50px ;
 	
 	position: relative;
 	 
@@ -255,4 +262,19 @@ background-image:url('https://img.freepik.com/foto-gratis/mujer-atractiva-recibi
 }
 .vivaCourses{
 	color: #7E634E;
+}
+
+.ancore a{
+	color: #7E634E;
+	background-color: #CCB892;
+	padding: 8px;
+}
+.ancore a:hover{
+	color: #ffffff;
+	background-color:#7E634E;
+	transition: 0.5s;
+	
+}
+.pSlider2{
+	padding-top: 35px;
 }

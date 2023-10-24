@@ -129,6 +129,17 @@ figure {
 	
 	
 }
+.ancore a{
+	color: #7E634E;
+	background-color: #CCB892;
+	padding: 8px;
+}
+.ancore a:hover{
+	color: #ffffff;
+	background-color:#7E634E;
+	transition: 0.5s;
+	
+}
 // --------------container
 .containerClinic{
 		padding-top: 80px;
@@ -252,12 +263,16 @@ background-color: #575757;
 .pSlider{
 	color:   #CCB892;
 	text-transform: uppercase;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	
 	
 }
 .pSlider2{
 	color:  #7E634E;
 	text-transform: uppercase;
 }
+
 @media only screen and (max-width: 768px) {
 	
 	

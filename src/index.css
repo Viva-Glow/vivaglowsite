@@ -27,3 +27,9 @@ body::-webkit-scrollbar-thumb {
 #Contact {
   scroll-margin-block-start: 100px !important;
 }
+#Clinic {
+  scroll-margin-block-start: -400px !important;
+}
+#Courses{
+  scroll-margin-block-start: 100px !important;
+}

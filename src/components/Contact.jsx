@@ -45,17 +45,17 @@ function ContactComponent(props) {
         <div class="row pt-5">
           <div class="col-md-6 offset-md-3 titleCO">
           <Fade>
-            <h2>Contáctanos</h2>
+            <h2>CONTÁCTANOS</h2>
             </Fade>
           </div>
         </div>
         <hr class="divider" />
         <p class="col-md-6 offset-md-3">
-          No dudes en ponerte en contacto con nosotros a través de los medios de
+        Nuestro equipo en <strong className="strongCont">Viva Glow</strong> está
+          listo para atenderte. No dudes en ponerte en contacto con nosotros a través de los medios de
           comunicación que prefieras. Ya sea que desees programar una consulta,
           obtener información adicional sobre nuestros servicios, nuestra academia o cualquier
-          otra consulta, nuestro equipo en <strong className="strongCont">Viva Glow</strong> está
-          listo para atenderte.
+          otra duda que tengas. 
         </p>
         <p> ¡Contáctanos hoy mismo y da el primer paso hacia una transformación de belleza y confianza!</p>
         <div class="container pt-4">

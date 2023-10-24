@@ -1,5 +1,12 @@
 import React from "react";
 import "../css/cardsClinic.scss";
+import reductor2 from "../assets/reductor2.jpg"
+import reductor from "../assets/reductor.jpg"
+import manchas from "../assets/manchas.jpg"
+import arrugas from "../assets/arrugas.jpg"
+import acne from "../assets/acne.jpg"
+import gluteos from "../assets/gluteos.jpg"
+import depilacion from "../assets/depilacion.jpg"
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
   Navigation,
@@ -23,7 +30,7 @@ const SectionClinic = () => {
         <div class="row ">
           <div class="col-md-6 offset-md-3 tituloP">
             <h2>
-              <strong>CLÍNICA ESTÉTICA DE AVANZADA</strong>
+              <strong>CLÍNICA DE MEDICINA ESTÉTICA</strong>
             </h2>
           </div>
         </div>
@@ -35,7 +42,7 @@ const SectionClinic = () => {
           <div class="col-md-6 offset-md-3 mediaTitle">
           <Fade>
             <h1 className="tituloP tituloPB tituloPB1">
-              Bienvenidos a <strong>Viva Glow</strong>
+              Bienvenidos a <strong>VIVA GLOW</strong>
             </h1>
            </Fade>
           </div>
@@ -43,11 +50,13 @@ const SectionClinic = () => {
           <div class="col-md-6 offset-md-3 tituloP">
             <p>
               Somos tu destino para descubrir una belleza que resalte tu
-              autenticidad. Nuestro equipo de expertos está comprometido en
-              ofrecerte tratamientos de vanguardia que te sorprenderán. Te
-              esperamos en el centro de Valencia. Te acompañaremos a alcanzar
-              tus objetivos de bienestar y plenitud.
+              autenticidad. 
             </p>
+            <p>Nuestro equipo de expertos está comprometido en
+              ofrecerte tratamientos de vanguardia que te sorprenderán. </p>
+              <p>Te
+              esperamos en el centro de Valencia. Te acompañaremos a alcanzar
+              tus objetivos de bienestar y plenitud.</p>
 
             <p className="pSlider">
               <b>Te invitamos a redescubrir tu belleza natural</b>
@@ -66,22 +75,23 @@ const SectionClinic = () => {
         <div class="row ">
           <div class="col-md-6 offset-md-3 tituloP  tituloPB tituloPB2 ">
           <Fade>
-            <h2>Nuestros tratamientos</h2>
+            <h2>NUESTROS <strong>TRATAMIENTOS</strong></h2>
             </Fade>
           </div>
         </div>
         <hr class="divider" />
         <div class="row pb-2">
-          <div class="col-md-6 offset-md-3">
+          <div class="col-md-6 offset-md-3 ancore">
             <p>
               Descubre un mundo de belleza y bienestar, nuestros tratamientos
-              son son más que simples procedimientos, son la puerta a una
+              son más que simples procedimientos, son la puerta a una
               versión más radiante de ti misma. 
             </p>
             <p>¿Has soñado con una piel más
               luminosa, una figura más esbelta o un rejuvenecimiento facial?  te esperamos para  transformar tus sueños en realidad.</p>
-              <p>Inspírate y anímate a dar el primer paso. Resolveremos todas tus dudas, tendrás  el apoyo y la confianza que necesitas para estar segura y radiante a cada paso. </p>
-              <p className="pSlider"><b>Contáctanos ¡Te esperamos!</b></p>
+              <p>Inspírate y anímate a dar el primer paso.  </p>
+              <p>Resolveremos todas tus dudas, tendrás  el apoyo y la confianza que necesitas para estar segura y radiante a cada paso.</p>
+              <p className="pSlider"><a href="#Contact"><b>Contáctanos ¡Te esperamos!</b></a></p>
           </div>
         </div>
         {/*  end Title clinic------------ */}
@@ -102,7 +112,7 @@ const SectionClinic = () => {
             <figure>
               {/* <h1>descrubre nuestro inovadortratamiento reductor</h1> */}
               <img
-                src="https://img.freepik.com/foto-gratis/persona-que-recibe-tratamiento-belleza-microagujas_23-2149334245.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
+                src={reductor2}
                 alt=""
               />
               <figcaption className="fig1 figA">
@@ -121,9 +131,10 @@ const SectionClinic = () => {
           <figure >
               {/* <h1>descrubre nuestro inovadortratamiento reductor</h1> */}
               <img
-                src="https://img.freepik.com/foto-gratis/persona-que-recibe-tratamiento-belleza-microagujas_23-2149334245.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
+                src={manchas}
                 alt=""
               />
+              {/* <a href="https://www.freepik.es/foto-gratis/atleta-musculoso-joven-pie-mirando-abajo-manos-caderas-pared-gris_12057369.htm#query=mujer%20cuerpo%20esbelto&position=3&from_view=search&track=ais">Imagen de diana.grytsku</a> en Freepik */}
               <figcaption className="fig1 figA">
                
                 <h4>DÍ ADIOS A LAS MANCHAS DE TU PIEL</h4> <br />
@@ -140,9 +151,10 @@ const SectionClinic = () => {
           <figure>
               {/* <h1>descrubre nuestro inovadortratamiento reductor</h1> */}
               <img
-                src="https://img.freepik.com/foto-gratis/persona-que-recibe-tratamiento-belleza-microagujas_23-2149334245.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
+                src={arrugas}
                 alt=""
               />
+              {/* <a href="https://www.freepik.es/foto-gratis/cabeza-atractiva-morena-femenina-pecas-piel-bronceada-disfruta-tomando-sol-vacaciones-verano-toca-piel-suave-tierna-cepilla-suavemente-cara-yemas-dedos-sonrie-lindo-fondo-blanco_24591382.htm#query=rostro%20mujer%20con%20manchas&position=12&from_view=search&track=ais">Imagen de cookie_studio</a> en Freepik */}
               <figcaption className="fig1  figB">
                
                 <h4>OLVÍDATE DE TUS ARRUGAS</h4> <br />
@@ -159,9 +171,10 @@ const SectionClinic = () => {
           <figure>
               {/* <h1>descrubre nuestro inovadortratamiento reductor</h1> */}
               <img
-                src="https://img.freepik.com/foto-gratis/persona-que-recibe-tratamiento-belleza-microagujas_23-2149334245.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
+                src={acne}
                 alt=""
               />
+              {/* Imagen de <a href="https://www.freepik.es/foto-gratis/retrato-mujer-rica-rubia-mediana-edad_31286547.htm#query=mujer%20adulta%20rostro&position=14&from_view=search&track=ais">Freepik</a> */}
               <figcaption className="fig1 figC">
                
                 <h4>TRATAMIENTO ANTI-ACNÉ</h4>
@@ -173,11 +186,11 @@ const SectionClinic = () => {
               </figcaption>
             </figure>
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide>
           <figure>
-              {/* <h1>descrubre nuestro inovadortratamiento reductor</h1> */}
+              <h1>descrubre nuestro inovadortratamiento reductor</h1>
               <img
-                src="https://img.freepik.com/foto-gratis/persona-que-recibe-tratamiento-belleza-microagujas_23-2149334245.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
+                src={reductor}
                 alt=""
               />
               <figcaption className="fig1 figB" >
@@ -185,17 +198,16 @@ const SectionClinic = () => {
                 <h4>REDUCTOR INTENSIVO </h4> <br />
 
                 <p>Reafirma tu belleza y esculpe tu cuerpo. Es el secreto de una figura definida y segura. ¡Descubre una nueva versión de ti misma y obtén tu figura deseada. Reducirás de 4 a 7 cm. ¡Notarás la diferencia! </p>
-{/*                 
-                <button>More Info</button> */}
+
                
               </figcaption>
             </figure>
-          </SwiperSlide>
+          </SwiperSlide> */}
           <SwiperSlide>
           <figure>
               {/* <h1>descrubre nuestro inovadortratamiento reductor</h1> */}
               <img
-                src="https://img.freepik.com/foto-gratis/persona-que-recibe-tratamiento-belleza-microagujas_23-2149334245.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
+                src={gluteos}
                 alt=""
               />
               <figcaption className="fig1 figB">
@@ -213,9 +225,10 @@ const SectionClinic = () => {
           <figure>
               {/* <h1>descrubre nuestro inovadortratamiento reductor</h1> */}
               <img
-                src="https://img.freepik.com/foto-gratis/persona-que-recibe-tratamiento-belleza-microagujas_23-2149334245.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
+                src={depilacion}
                 alt=""
               />
+              {/* Imagen de <a href="https://www.freepik.es/foto-gratis/hermosa-joven-productos-spa-casa_11107017.htm#query=mujer%20depilacion&position=16&from_view=search&track=ais">Freepik</a> */}
               <figcaption className="fig1 figB">
                
                 <h4>DEPILACIÓN LASER DIODO DE ÚLTIMA GENERACIÓN</h4> <br />
@@ -230,101 +243,7 @@ const SectionClinic = () => {
         </Swiper>
       </div>
 
-      {/* <section className="sectionClinic">
       
-        <figure>
-          <h1>Sirius</h1>
-          <img
-            src="https://img.freepik.com/foto-gratis/persona-que-recibe-tratamiento-belleza-microagujas_23-2149334245.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
-            alt=""
-          />
-          <figcaption>
-            <h3>Anti-Manchas</h3>
-
-            <p>4 a 6 sesiones</p>
-            <p>Limpieza profunda</p>
-            <p>Microdermoabrasion</p>
-            <p>Antioxidantes </p>
-       
-          </figcaption>
-        </figure>
-     
-        <figure class="image-block">
-          <h1>Tratamiento 2</h1>
-          <img
-            src="https://img.freepik.com/foto-gratis/mujer-relajante-salon-belleza_23-2148895559.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
-            alt=""
-          />
-          <figcaption>
-            <h3>More Info</h3>
-            <p>
-              Pellentesque habitant morbi tristique senectus et netus et
-              malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat
-              vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit
-              amet quam egestas semper. Aenean ultricies mi vitae est. Mauris
-              placerat eleifend leo.
-            </p>
-            <button>More Info</button>
-          </figcaption>
-        </figure>
-      
-        <figure class="image-block">
-          <h1>Tratamiento 3</h1>
-          <img
-            src="https://img.freepik.com/foto-gratis/retrato-mujer-cabello-morena-preparacion-rejuvenecimiento-operacion-cosmetologia-salon-belleza-manos-guantes-azules-dibujando-cara-botox-belleza_197531-2778.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
-            alt=""
-          />
-          <figcaption>
-            <h3>More Info</h3>
-            <p>
-              Pellentesque habitant morbi tristique senectus et netus et
-              malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat
-              vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit
-              amet quam egestas semper. Aenean ultricies mi vitae est. Mauris
-              placerat eleifend leo.
-            </p>
-            <button>More Info</button>
-          </figcaption>
-        </figure>
-  
-        <figure class="image-block">
-          <h1>Tratamiento 4</h1>
-          <img
-            src="https://img.freepik.com/foto-gratis/retrato-mujer-cabello-morena-preparacion-rejuvenecimiento-operacion-cosmetologia-salon-belleza-manos-guantes-azules-dibujando-cara-botox-belleza_197531-2778.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
-            alt=""
-          />
-          <figcaption>
-            <h3>More Info</h3>
-            <p>
-              Pellentesque habitant morbi tristique senectus et netus et
-              malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat
-              vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit
-              amet quam egestas semper. Aenean ultricies mi vitae est. Mauris
-              placerat eleifend leo.
-            </p>
-            <button>More Info</button>
-          </figcaption>
-        </figure>
-       
-        <figure class="image-block">
-          <h1>Tratamiento 5</h1>
-          <img
-            src="https://img.freepik.com/foto-gratis/retrato-mujer-cabello-morena-preparacion-rejuvenecimiento-operacion-cosmetologia-salon-belleza-manos-guantes-azules-dibujando-cara-botox-belleza_197531-2778.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
-            alt=""
-          />
-          <figcaption>
-            <h3>More Info</h3>
-            <p>
-              Pellentesque habitant morbi tristique senectus et netus et
-              malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat
-              vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit
-              amet quam egestas semper. Aenean ultricies mi vitae est. Mauris
-              placerat eleifend leo.
-            </p>
-            <button>More Info</button>
-          </figcaption>
-        </figure>
-      </section> */}
     </>
   );
 };

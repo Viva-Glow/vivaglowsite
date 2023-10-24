@@ -11,16 +11,14 @@ const SectionCourses = () => {
       <div class="container text-center containerCoursesBanner p-2 ">
         <div class="row p-4">
           <div class="  tituloPC">
-            <h2>
-              <strong>CONVIERTE TU PASIÓN EN PROFESIÓN</strong>
-            </h2>
+            <h2><strong>ACADEMIA DE FORMACIÓN PROFESIONAL</strong></h2>
+            <h3 className="subtCap">
+              Convierte tu pasión en profesión
+            </h3>
+            
           </div>
         </div>
-        <div className="row pb-4">
-          <button class="button buttonCourses" aria-hidden="true">
-            <a href="">Quiero más info por whatsapp</a>
-          </button>
-        </div>
+        
       </div>
 
       {/* academy---------------------- */}
@@ -29,13 +27,13 @@ const SectionCourses = () => {
         <div class="row pt-5">
           <div class="col-md-6 offset-md-3 tituloPC1">
           <Fade>
-            <h2>Academia de formación profesional</h2>
+            <h2>CAPACÍTATE EN <strong>VIVA GLOW</strong> </h2>
             </Fade>
           </div>
         </div>
         <hr class="divider" />
         <div class="row pb-2">
-          <div class="col-md-6 offset-md-3">
+          <div class="col-md-6 offset-md-3 ancore">
             <p>
               Nuestra academia es el lugar donde la pasión por la estética se
               combina con la excelencia educativa.
@@ -57,6 +55,15 @@ const SectionCourses = () => {
               potencial único, y nuestro objetivo es ayudarte a desarrollarlo y
               brillar en tu carrera de esteticista.
             </p>
+        
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-md-6 offset-md-3 tituloPC1">
+          <Fade>
+            <h3>NUESTROS <strong>CURSOS</strong> </h3>
+            </Fade>
+            <hr class="divider" />
           </div>
         </div>
       </div>
@@ -178,49 +185,12 @@ const SectionCourses = () => {
             </div>
           </div>
         </div>
-        {/* 
-        card 4----------------------------- */}
-        {/* <div class="card cardCuorses">
-          <input type="checkbox" id="card4" class="more" />
-          <div class="content">
-            <div class="front front4">
-              <div class="inner">
-                <h2>Curso 4</h2>
-
-                <label for="card4" class="button" aria-hidden="true">
-                  Details
-                </label>
-              </div>
-            </div>
-            <div class="back">
-              <div class="inner">
-                <div class="description">
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Ipsa libero totam nostrum consequatur autem quae provident
-                    quos alias fugit maxime nisi labore, temporibus tempore illo
-                    natus voluptates aliquam ipsum officia quasi placeat aut
-                    facilis laudantium nam!
-                  </p>
-                  <p>
-                    Quam, iusto.Neque ratione ut deserunt unde dicta nesciunt,
-                    repudiandae aspernatur explicabo numquam! Tenetur!
-                  </p>
-                </div>
-                <div class="location">Cracow, Poland</div>
-                <div class="price">60€ / day</div>
-                <label for="card4" class="button return" aria-hidden="true">
-                  <FontAwesomeIcon
-                    icon={faArrowLeft}
-                    style={{ color: "#7e634e" }}
-                  />
-                </label>
-              </div>
-            </div>
-          </div>
-        </div> */}
-        {/* end card 4 ----------------- */}
+       
+        
       </div>
+      <div className="row ancore">
+            <p className="pSlider2"><a href=""><b>Quiero más info por whatsapp</b></a></p>
+        </div>
       {/* academy---------------------- */}
     </>
   );

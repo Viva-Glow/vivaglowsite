@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faSquareInstagram } from "@fortawesome/free-brands-svg-icons";
 import { Fade } from "react-awesome-reveal";
+import aboutW from "../assets/aboutW.jpg"
 
 const About = () => {
   return (
@@ -16,17 +17,17 @@ const About = () => {
                 <div class="title titleAB">Conócenos</div>
                 <Fade>
                 <h2>
-                  Alcanzamos <br /> Tu Mejor Versión
+                  ALCANZAMOS <br /> <span className="version">TU MEJOR VERSIÓN</span>
                 </h2>
                 </Fade>
                 <hr class="divider" />
               </div>
-              <div class="text">
+              <div class="text textA">
                 <p>
                   {" "}
                   En <strong className="strongT">Clínica Viva Glow</strong> estamos orgullosos de ser
-                  el punto de referencia en Valencia para quienes buscan mejorar
-                  su apariencia y bienestar a través de tratamientos estéticos
+                  el punto de referencia en <strong>Valencia</strong> para quienes buscan mejorar
+                  su apariencia y bienestar a través de <strong>tratamientos estéticos</strong>
                   seguros y eficaces.
                 </p>
                 <p>
@@ -82,7 +83,7 @@ const About = () => {
             >
               <div class="image">
                 <img
-                  src="https://img.freepik.com/foto-gratis/hermoso-rostro-sano-joven-mujer-bonita-blanca-piel-fresca-aislada-blanco_186202-7236.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=sph"
+                  src={aboutW}
                   alt=""
                 />
               </div>
