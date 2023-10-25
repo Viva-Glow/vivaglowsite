@@ -89,6 +89,10 @@ footer .social-media .links a {
 .info li{
     font-size: 15px;
 }
+.pixela:hover{
+    cursor: pointer;
+ 
+}
 
 /* media query------------ */
 @media (max-width: 768px) {

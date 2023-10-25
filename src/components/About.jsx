@@ -53,17 +53,18 @@ const About = () => {
               <div class="email">
                 <p> Encuentranos aquí: </p>
               </div>
-              <a href=" https://api.whatsapp.com/send?phone=34663531305">
+              <a href="https://www.facebook.com/vivaglowsp/"    target="_blank">
                 {" "}
                 <FontAwesomeIcon
                   icon={faSquareFacebook}
                   style={{ color: "#7e634e" }}
                   size="xl"
                   className="whatB mx-2"
+
                 />
               </a>
 
-              <a href=" https://api.whatsapp.com/send?phone=34663531305">
+              <a href="https://instagram.com/vivaglowsp"    target="_blank">
                 {" "}
                 <FontAwesomeIcon
                   icon={faSquareInstagram}

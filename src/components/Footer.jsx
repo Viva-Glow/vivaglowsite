@@ -18,18 +18,23 @@ const Footer = () => {
           <div class="social-media">
             <h2>Síguenos en nuestras redes</h2>
             <div class="links ">
+              <a href="https://www.facebook.com/vivaglowsp/"  target="_blank">
               <FontAwesomeIcon
                 icon={faSquareFacebook}
                 size="xl"
                 style={{ color: "#ffffff" }}
                 className="linkRedes"
               />
-              <FontAwesomeIcon
+              </a>
+            <a href="https://instagram.com/vivaglowsp"  target="_blank" >
+            <FontAwesomeIcon
                 icon={faSquareInstagram}
                 size="xl"
                 style={{ color: "#fcfcfc" }}
                 className="linkRedes"
               />
+            </a>
+            
             </div>
           </div>
         </div>
@@ -96,10 +101,10 @@ const Footer = () => {
         <ul class="CTA">
           <li>&copy; Viva Glow</li>
           <br />
-          <li>Todos los derechos reservados</li>
+          <li>Todos los derechos reservados 2023</li>
           <br />
-          <li>
-            Desarrollado por <a href="">Pixela</a>{" "}
+          <li className="pixela">
+            <a href="https://pixela.es"  target="_blank"> Desarrollado por Pixela</a>{" "}
           </li>
         </ul>
       </div>

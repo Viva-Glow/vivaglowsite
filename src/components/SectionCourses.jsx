@@ -189,7 +189,7 @@ const SectionCourses = () => {
         
       </div>
       <div className="row ancore">
-            <p className="pSlider2"><a href=""><b>Quiero más info por whatsapp</b></a></p>
+            <p className="pSlider2"><a href=" https://api.whatsapp.com/send?phone=34689818115"   target="_blank"><b>Quiero más info por whatsapp</b></a></p>
         </div>
       {/* academy---------------------- */}
     </>

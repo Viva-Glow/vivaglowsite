@@ -55,7 +55,7 @@ useEffect (()=> {
       </div>
       <div className="wh">
         <a
-          href=" https://api.whatsapp.com/send?phone=34663531305"
+          href=" https://api.whatsapp.com/send?phone=34689818115"
           className="whatsapp"
           target="_blank"
         >
