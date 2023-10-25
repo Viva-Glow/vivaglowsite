@@ -157,6 +157,7 @@ select:focus {
   
 }
 
+
 /* @media querries */
 
 @media only screen and (max-width: 1266px) {
@@ -205,6 +206,9 @@ select:focus {
   } */
 }
 @media only screen and (max-width: 420px) {
+  .textAdre span{
+    font-size: 12px;
+  }
   .section1 h1 {
     font-size: 28px;
   }

@@ -81,7 +81,7 @@ function ContactComponent(props) {
               <iframe  id="map_canvas"
                   className="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.0361550864523!2d-0.37908392347444697!3d39.46851191280385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4b1061bdf9%3A0x909a23b5c71d02de!2sC%2F%20del%20Convent%20de%20Sta.%20Clara%2C%2012%2C%2046002%20Val%C3%A8ncia!5e0!3m2!1ses!2ses!4v1698160922546!5m2!1ses!2ses" width="200" height="350"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               
-              <div className="pt-2"> <span>Calle Convento Santa Clara 12 B, piso 2, puerta 4 - Valencia</span></div>
+              <div className="pt-2 textAdre"> <span>Calle Convento Santa Clara 12 B, piso 2, puerta 4 - Valencia</span></div>
               </div>
 
               <div class="col2 column2 last">
