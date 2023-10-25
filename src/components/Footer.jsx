@@ -91,7 +91,7 @@ const Footer = () => {
               style={{ color: "#7e634e" }}
               size="xl"
             />{" "}
-            rrrrrrrrrrrr@gmail.com
+            info@vivaglow.es
           </li>
           <br />
           <br />

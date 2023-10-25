@@ -48,6 +48,7 @@ text-transform: uppercase;
   color: rgb(218, 171, 136) !important;
   border-bottom: 2px solid rgb(218, 171, 136);
   padding-bottom: 2px;
+
 }
 .Navbar-bg {
   background-color: rgb(255, 255, 255);
@@ -63,6 +64,9 @@ text-transform: uppercase;
     margin-left: 0;
     padding-bottom: 15px !important;
     
+  }
+  .navlink:hover{
+    border-bottom: 0px;
   }
 
   .Navbar-brand {
