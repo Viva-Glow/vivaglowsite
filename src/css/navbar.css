@@ -44,7 +44,7 @@ text-transform: uppercase;
  
 }
 
-.navlink:hover{
+.navlink b:hover{
   color: rgb(218, 171, 136) !important;
   border-bottom: 2px solid rgb(218, 171, 136);
   padding-bottom: 2px;
@@ -66,10 +66,7 @@ text-transform: uppercase;
     padding-bottom: 15px !important;
     
   }
-  .navlink:hover{
-    color: rgb(218, 171, 136) !important;
-    border-bottom: 0px;
-  }
+
 
   .Navbar-brand {
 
