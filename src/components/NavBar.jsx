@@ -48,7 +48,7 @@ function NavBar() {
             </Navbar.Brand>
 
             <Nav.Link className="navlink" href="#About">
-             <b>Nosotros</b> 
+             <b>Conócenos</b> 
             </Nav.Link>
             <Nav.Link className="navlink" href="#Contact">
              <b>Contáctanos</b> 
