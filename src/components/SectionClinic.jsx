@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/cardsClinic.scss";
 import reductor2 from "../assets/reductor2.jpg"
-import reductor from "../assets/reductor.jpg"
+
 import manchas from "../assets/manchas.jpg"
 import arrugas from "../assets/arrugas.jpg"
 import acne from "../assets/acne.jpg"
