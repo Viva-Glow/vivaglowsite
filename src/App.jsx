@@ -1,16 +1,18 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import RoutesDos from "./routes/RoutesDos";
+
 import Home from "./pages/Home";
 
+
 import "./App.css";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          {/* <Route path="/*" element={<RoutesDos />} /> */}
-          <Route path="/Home" element={<Home />} />
+        <Route path="/" element={<Home />} />
+      <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </>
