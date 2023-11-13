@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
         <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/curso_estetica_avanzada" element={<CourseStar />} />
+        <Route path="/curso-tecnicas-avanzadas-estetica" element={<CourseStar />} />
       <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

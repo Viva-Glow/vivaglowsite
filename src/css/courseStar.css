@@ -8,21 +8,31 @@
     font-size: 30px;
     line-height: 45px;
 	color: #cdb88e;
+
     
+  }
+  .tituloPresCs1{
+    line-height: 45px;
+    color: #cdb88e;
+    font-size: 25px;
+  }
+  .tituloPresCs1 strong{
+    color: #7e634e;
   }
 
   .tituloPresCs2 strong{
 	font-weight: normal;
     color: #7e634e;
     font-family: 'MontSerrat UltraLight', Arial, Sans-Serif;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 45px;
 }
 .tituloPresCs2{
     font-family: 'MontSerrat UltraLight', Arial, Sans-Serif;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 45px;
 	color: #cdb88e;
+  padding-top: 30px;
 
 }
 .csRow{
@@ -51,11 +61,14 @@
    
 	
   }
-  a  .buttonC{
-    text-decoration: none;
-  }
-  .buttonC b {
+
+  .buttonC a {
     color:   #7E634E;
+  }
+
+  .buttonC b:hover{
+    color:whitesmoke;
+    transition: 0.3s ease-in-out;
   }
  
   /* table---------------- */
@@ -74,7 +87,14 @@
   /* gallery------------------------ */
 
 .imgCs{
-    width: 50%;
+    width: 300px;
+    height: 100%;
+    /* padding-top: 8%; */
+}
+.imgExp{
+  width: 100%;
+  padding-top: 5%;
+  
 }
 
 
@@ -92,6 +112,142 @@
 .textEnd{
      background-color: #fff5e381;
 }
+
+
+
+/* BLACKFRIDAY---------------- */
+.card-price1{
+  text-decoration:line-through;
+}
+.bodyExtra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.black span {
+  font-size: 30px;
+  color: rgb(28, 60, 57);
+  
+}
+
+.pExtra {
+  font-size: 30px;
+  color: rgb(154, 31, 31);
+}
+
+.black {
+  
+  text-align: center;
+
+ 
+}
+.black1{
+  border: 2px solid #e60b0b;
+  box-shadow: 0px 0px 6px 0px rgba(230,11,11,1);
+  border-radius: 15px;
+  padding: 4% 2% 0% 2%;
+}
+.cardPrice{
+  border: 2px solid #e60b0b; 
+  box-shadow: 0px 0px 6px 0px rgba(230,11,11,1);
+}
+
+
+
+@keyframes anime {
+  100% {
+      color: #e60b0b;
+      text-shadow: 0px 0px 5px rgb(230, 11, 11, 0.75);
+  }
+}
+
+@keyframes scale {
+  0% {
+      transform: scale(1);
+      color: rgb(154, 31, 31);
+      text-shadow: 0px 0px 3px  rgb(154, 31, 31);
+  }
+  100% {
+      transform: scale(1.05);
+      color: rgb(239, 113, 40);
+      text-shadow: 0px 0px 3px  rgb(241, 96, 13);
+  }
+}
+  
+.black:hover :nth-child(1) {
+  animation: 0.3s anime forwards;
+}
+
+.black:hover :nth-child(9) {
+  animation: 0.3s anime forwards;
+  animation-delay: 0.3s;
+}
+
+.black:hover :nth-child(4) {
+  animation: 0.3s anime forwards;
+  animation-delay: 0.6s;
+}
+
+.black:hover :nth-child(11) {
+  animation: 0.3s anime forwards;
+  animation-delay: 0.9s;
+}
+
+.black:hover :nth-child(7) {
+  animation: 0.3s anime forwards;
+  animation-delay: 1.2s;
+}
+
+.black:hover :nth-child(12) {
+  animation: 0.3s anime forwards;
+  animation-delay: 1.5s;
+}
+
+.black:hover :nth-child(2) {
+  animation: 0.3s anime forwards;
+  animation-delay: 1.8s;
+}
+
+.black:hover :nth-child(5) {
+  animation: 0.3s anime forwards;
+  animation-delay: 2.1s;
+}
+
+.black:hover :nth-child(10) {
+  animation: 0.3s anime forwards;
+  animation-delay: 2.4s;
+}
+
+.black:hover :nth-child(3) {
+  animation: 0.3s anime forwards;
+  animation-delay: 2.7s;
+}
+
+.black:hover :nth-child(8) {
+  animation: 0.3s anime forwards;
+  animation-delay: 3s;
+}
+
+.black:hover p {
+  animation: 0.5s scale alternate infinite;
+  animation-delay: 3.3s;
+}
+
+/* mediaq -------------------------------*/
+
+@media (max-width: 380px) {
+  .imgCs{
+width: 200px;
+   
+  }
+}
+
+
+
+
 
 
 

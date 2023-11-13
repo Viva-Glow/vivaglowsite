@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/courses.scss";
+import tratamientoReductor from "../assets/tratamientoReductor.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { Fade } from "react-awesome-reveal";
@@ -11,14 +12,12 @@ const SectionCourses = () => {
       <div class="container text-center containerCoursesBanner p-2 ">
         <div class="row p-4">
           <div class="  tituloPC">
-            <h3><strong>ACADEMIA DE FORMACIÓN PROFESIONAL</strong></h3>
-            <h4 className="subtCap">
-              Convierte tu pasión en profesión
-            </h4>
-            
+            <h3>
+              <strong>ACADEMIA DE FORMACIÓN PROFESIONAL</strong>
+            </h3>
+            <h4 className="subtCap">Convierte tu pasión en profesión</h4>
           </div>
         </div>
-        
       </div>
 
       {/* academy---------------------- */}
@@ -26,13 +25,15 @@ const SectionCourses = () => {
         {/* Title clinic------------ */}
         <div class="row pt-5">
           <div class="col-md-6 offset-md-3 tituloPC1">
-          <Fade>
-            <h2>CAPACÍTATE EN <strong>VIVA GLOW</strong> </h2>
+            <Fade>
+              <h2>
+                CAPACÍTATE EN <strong>VIVA GLOW</strong>{" "}
+              </h2>
             </Fade>
           </div>
         </div>
-        <hr class="divider" />
-        <div class="row pb-2">
+        <hr class="divider " />
+        <div class="row pt-3">
           <div class="col-md-6 offset-md-3 ancore">
             <p>
               Nuestra academia es el lugar donde la pasión por la estética se
@@ -55,18 +56,55 @@ const SectionCourses = () => {
               potencial único, y nuestro objetivo es ayudarte a desarrollarlo y
               brillar en tu carrera de esteticista.
             </p>
-        
           </div>
         </div>
         <div class="row pt-5">
           <div class="col-md-6 offset-md-3 tituloPC1">
-          <Fade>
-            <h3>NUESTROS <strong>CURSOS</strong> </h3>
+            <Fade>
+              <h3>
+                NUESTROS <strong>CURSOS</strong>{" "}
+              </h3>
             </Fade>
             <hr class="divider" />
           </div>
         </div>
       </div>
+      {/* CARD1 course advanced----------------------------- */}
+      <div class="blog-card">
+        <div class="meta">
+          <div class="photo">
+            <img
+            className="foto"
+              src={tratamientoReductor}
+              alt=""
+            />
+          </div>
+       
+        </div>
+        <div class="descriptionCs">
+          <h3 className="titleCs">TÉCNICAS AVANZADAS DE ESTÉTICA</h3>
+         
+          <p>Este paquete formativo es la clave para desbloquear las puertas del éxito en la estética. </p>
+          <p>Sin conocimientos previos necesarios, nuestro curso es súper simple y te proporcionará el diploma que te abrirá las puertas a ingresos inmediatos.</p>
+      
+          <div className="row ancore">
+            <p className="pSlider2">
+              <a href=" /curso-tecnicas-avanzadas-estetica">
+                <b>ver contenido</b>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 offset-md-3 tituloPC1 pt-5">
+            <Fade>
+              <h4>
+               CURSOS <strong>ESPECIALIZADOS</strong>{" "}
+              </h4>
+            </Fade>
+            <hr class="divider" />
+          </div>
 
       {/* CARDS ---------------- */}
 
@@ -170,7 +208,9 @@ const SectionCourses = () => {
                     adoran.
                   </p>
                   <p>
-                  Aumenta tus ingresos al ofrecer servicios de alto valor. ¡Invierte en tu futuro económico y destaca en la industria de la belleza con nuestro curso de peeling químico.
+                    Aumenta tus ingresos al ofrecer servicios de alto valor.
+                    ¡Invierte en tu futuro económico y destaca en la industria
+                    de la belleza con nuestro curso de peeling químico.
                   </p>
                 </div>
                 {/* <div class="location ">PEELING QUÍMICO</div> */}
@@ -185,12 +225,17 @@ const SectionCourses = () => {
             </div>
           </div>
         </div>
-       
-        
       </div>
       <div className="row ancore">
-            <p className="pSlider2"><a href=" https://api.whatsapp.com/send?phone=34689818115"   target="_blank"><b>Quiero más info por whatsapp</b></a></p>
-        </div>
+        <p className="pSlider2">
+          <a
+            href=" https://api.whatsapp.com/send?phone=34689818115"
+            target="_blank"
+          >
+            <b>Quiero más info por whatsapp</b>
+          </a>
+        </p>
+      </div>
       {/* academy---------------------- */}
     </>
   );

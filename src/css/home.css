@@ -2,7 +2,7 @@
     position: fixed;
     width: 45px;
     height: 45px;
-    bottom: 100px;
+    bottom: 40px;
     right: 40px;
    
     background-color:#5ba51f;
@@ -29,8 +29,9 @@
   position: fixed;
   width: 80px;
   height: 35px;
-  bottom: 40px;
-  right: 40px;
+  bottom: 100px;
+    right: 40px;
+ 
   background-color: #cdb88e;
   color: #fff;
   border-radius: 50px;
