@@ -89,7 +89,7 @@ const SectionCourses = () => {
       
           <div className="row ancore">
             <p className="pSlider2">
-              <a href=" /curso-tecnicas-avanzadas-estetica">
+              <a href="/curso-tecnicas-avanzadas-estetica">
                 <b>ver contenido</b>
               </a>
             </p>
