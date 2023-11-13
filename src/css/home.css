@@ -4,6 +4,7 @@
     height: 45px;
     bottom: 40px;
     right: 40px;
+   
     background-color:#5ba51f;
     color: #fff;
     border-radius: 50px;
@@ -21,6 +22,30 @@
     pointer-events: none;
   }
   .whatsapp:hover{
-    transform:scale(1.5);
+    transform:scale(1.2);
     transition: all 0.3s ease-in-out 0s;
   }
+.goBack{
+  position: fixed;
+  width: 80px;
+  height: 35px;
+  bottom: 100px;
+    right: 40px;
+ 
+  background-color: #cdb88e;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 16px;
+  z-index: 150;
+  padding: 5px;
+}
+.goBack a{
+
+
+  color: aliceblue;
+}
+.goBack:hover{
+  transform:scale(1.2);
+  transition: all 0.3s ease-in-out 0s;
+}

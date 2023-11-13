@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
+import CourseStar from "./pages/CourseStar";
 
 
 import "./App.css";
@@ -12,6 +13,7 @@ function App() {
       <BrowserRouter>
         <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/curso-tecnicas-avanzadas-estetica" element={<CourseStar />} />
       <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

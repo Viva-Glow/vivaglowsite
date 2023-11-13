@@ -203,6 +203,9 @@ $accent-color: #355cc9;
 .tituloPC1 strong {
 	color: #7E634E;
 }
+.tituloPC1 h4{
+	color: #575757;
+}
 
 
 .front4{
@@ -219,7 +222,7 @@ background-image:url('https://img.freepik.com/foto-gratis/mujer-atractiva-recibi
 			}
 			// <a href="https://www.freepik.es/foto-gratis/terapeuta-irreconocible-realizando-maderoterapia-piernas-mujer-tratamiento-masaje-spa_25630526.htm#query=mujer%20maderoterapia%20tratamiento&position=1&from_view=search&track=ais">Imagen de Drazen Zigic</a> en Freepik
 .containerCourses{
-	padding: 50px ;
+	padding: 50px 50px 10px 50px ;
 	
 	position: relative;
 	 
@@ -278,3 +281,253 @@ background-image:url('https://img.freepik.com/foto-gratis/mujer-atractiva-recibi
 .pSlider2{
 	padding-top: 35px;
 }
+
+// curse advanced-------------------------------------------------------
+
+.cardPrice {
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0);
+    flex: 1;
+    // margin: 8px;
+    padding: 30px ;
+    position: relative;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    &.popular {
+        margin-top: -10px;
+        margin-bottom: -10px; 
+        .card-title {
+            h3 {
+                color: #3498db;
+                font-size: 22px;
+            }
+        }
+        .card-price {
+            margin: 50px;
+            h1 {
+                color: #3498db;
+                font-size: 60px;
+            }
+        }
+      
+    }
+    &:hover {
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+}
+
+
+.card-title {
+    h3 {
+        color: rgba(0,0,0,0.3);
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    h4 {
+        color: rgba(0,0,0,0.6);
+    }
+}
+.card-price {
+    margin: 30px 0;
+    h4 {
+        font-size: 46px;
+        sup{
+            font-size: 15px;
+            display: inline-block;
+            margin-left: -20px;
+            width: 10px;
+        }
+        small {
+            color: rgba(0,0,0,0.3);
+            display: block;
+            font-size: 11px;
+            text-transform: uppercase;
+        }
+    }
+}
+.card-description {
+    ul {
+        display: block;
+        list-style: none;
+        margin: 30px 0;
+        padding: 0;
+    }
+    li {
+        color: rgba(0,0,0,0.6);
+        font-size: 15px;
+        margin: 0 0 15px;
+        &::before {
+            content: "\2714";
+            padding: 0 5px 0 0;
+            color: rgba(0,0,0,0.15);
+        }
+    }
+}
+div.container.containerG {
+	
+	padding-bottom: 5px !important;
+}
+
+// CARD1 COURSE ADVANCED---------------------------------
+
+// .bodyCardA {
+// 	background: #f1f1f1;
+// 	display: flex;
+// 	flex-direction:column;
+// 	font-size: 1rem;
+// 	justify-content: center;
+// 	align-items: center;
+// 	height: 100vh;
+//   }
+  
+  $color_white: #fff;
+
+  $color_grey: #e2e2e2;
+ 
+  
+  .blog-card {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	box-shadow: 0 3px 7px -1px rgba(#000, .1);
+	margin-bottom: 1.6%;
+	background: $color_white;
+	line-height: 1.4;
+	// font-family: sans-serif;
+	border-radius: 5px;
+	overflow: hidden;
+	z-index: 0;
+	a {
+	  color: inherit;
+	  &:hover {
+		color:whitesmoke;
+	  }
+	}
+
+	.meta {
+	  position: relative;
+	  z-index: 0;
+	  height: 200px;
+	}
+	.photo {
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	  background-size: cover;
+	  background-position: center;
+	
+	}
+	.foto{
+		width: 300px;
+	}
+	
+	.descriptionCs {
+	  padding: 1rem;
+	  background: $color_white;
+	  position: relative;
+	  z-index: 1;
+	  color: #575757;
+	  
+	
+	  h2 {
+		line-height: 1;
+		margin: 0;
+		color: #575757;
+		
+		font-size: 1.7rem;
+	  }
+	  h2 {
+		font-size: 1rem;
+		font-weight: 300;
+		text-transform: uppercase;
+		
+		margin-top: 5px;
+	  }
+	  .titleCs{
+		color: rgba(0, 0, 0, 0.639);
+		font-size: 1.5rem;
+	  }
+	  .read-more {
+		text-align: right;
+		a {
+		  color: whitesmoke;
+		  display: inline-block;
+		  position: relative;
+		  &:after {
+			content: "\f061";
+			font-family: FontAwesome;
+			margin-left: -10px;
+			opacity: 0;
+			vertical-align: middle;
+			transition: margin .3s, opacity .3s;
+		  }
+  
+		  &:hover:after {
+			margin-left: 5px;
+			opacity: 1;
+		  }
+		}
+	  }
+	}
+	p {
+	  position: relative;
+	  margin: 1rem 0 0;
+	//   &:first-of-type {
+	// 	margin-top: 1.25rem;
+	// 	&:before {
+	// 	  content: "";
+	// 	  position: absolute;
+	// 	  height: 5px;
+	// 	  background: $color_prime;
+	// 	  width: 35px;
+	// 	  top: -0.75rem;
+	// 	  border-radius: 3px;
+	// 	}
+	//   }
+	}
+	// &:hover {
+	//   .details {
+	// 	left: 0%;
+	//   }
+	// }
+  
+  
+	@media (min-width: 640px) {
+	  flex-direction: row;
+	  max-width: 700px;
+	  .meta {
+		flex-basis: 40%;
+		height: auto;
+	  }
+	  .description {
+		flex-basis: 60%;
+		&:before {
+		  transform: skewX(-3deg);
+		  content: "";
+		  background: #fff;
+		  width: 30px;
+		  position: absolute;
+		  left: -10px;
+		  top: 0;
+		  bottom: 0;
+		  z-index: -1;
+		}
+	  }
+	  &.alt {
+		flex-direction: row-reverse;
+		.description {
+		  &:before {
+			left: inherit;
+			right: -10px;
+			transform: skew(3deg)
+		  }
+		}
+		.details {
+		  padding-left: 25px;
+		}
+	  }
+	}
+  }
