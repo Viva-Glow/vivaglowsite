@@ -177,7 +177,7 @@
   }
 }
   
-.black:hover :nth-child(1) {
+.black :nth-child(1) {
   animation: 0.3s anime forwards;
 }
 
@@ -196,7 +196,7 @@
   animation-delay: 0.9s;
 }
 
-.black:hover :nth-child(7) {
+.black :nth-child(7) {
   animation: 0.3s anime forwards;
   animation-delay: 1.2s;
 }
@@ -231,7 +231,7 @@
   animation-delay: 3s;
 }
 
-.black:hover p {
+.black p {
   animation: 0.5s scale alternate infinite;
   animation-delay: 3.3s;
 }

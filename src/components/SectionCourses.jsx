@@ -76,7 +76,7 @@ const SectionCourses = () => {
             <img
             className="foto"
               src={tratamientoReductor}
-              alt=""
+              alt="silueta de mujer con una cinta de centimetro rodeándola"
             />
           </div>
        
