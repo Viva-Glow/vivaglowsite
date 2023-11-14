@@ -15,8 +15,9 @@ const CourseStar = () => {
       <div className="cardPr cardCsback mb-3 " id="Slider">
         <Fade>
           <h2 className="tituloPresCs1 pt-5">
-            BIENVENIDO A <strong>ACADEMIA VIVA GLOW</strong>
+            BIENVENIDO A 
           </h2>
+          <h2 className="tituloPresCs1"><strong>ACADEMIA VIVA GLOW</strong></h2>
           <h3 className="tituloPresCs pt-5">CURSO</h3>
         </Fade>
         <hr class="divider" />
@@ -47,7 +48,7 @@ const CourseStar = () => {
                 maniquíes y modelos reales, brindándote una inmersión total en
                 el aprendizaje.
               </p>
-              {/* <h2 className="tituloPresCs2 p-3">COMBO</h2> */}
+            
               <ul className="textLi">
                 <li>
                   <b>Supervisión por Expertos:</b> Profesores altamente
@@ -74,7 +75,7 @@ const CourseStar = () => {
               <div>
                 <p className="buttonC ">
                   <a href="https://api.whatsapp.com/send?phone=34689818115">
-                   <b>Contáctanos por whasapp</b> 
+                   <b>Contáctanos por whatsapp</b> 
                   </a>
                 </p>
                 <h4 className="pt-4">
@@ -104,19 +105,22 @@ const CourseStar = () => {
                 <li>Características Principales</li>
                 <li>Indicaciones de uso </li>
                 <li>Procedimiento</li>
-                <li>Profundidad de Trabajo con Derma Pen</li>
-                <li>Beneficios del Derma pen </li>
+                <li>Profundidad de Trabajo con Dermapen</li>
+                <li>Beneficios del Dermapen </li>
                 <li>Contraindicaciones y consideraciones </li>
                 <li>Teoría del Acné</li>
+                <li>Evaluación y Diagnóstico</li>
+               
               </ul>
             </div>
             <div className="col">
               <ul className="textLi">
-                <li>Evaluación y Diagnóstico</li>
-                <li>Protocolo de Tratamiento del Acné</li>
+              <li>Protocolo de Tratamiento del Acné</li>
                 <li>Eliminación de Cicatrices de Acné</li>
                 <li>Cuidados Posteriores y Prevención</li>
                 <li>BB Glow: Teoría y Técnicas Avanzadas de Aplicación</li>
+                <li>BB Blush</li>
+                <li>BB Lips</li>
                 <li>Pigmentación y Colorimetría</li>
                 <li>Técnicas Avanzadas de Aplicación</li>
                 <li>Cuidados Posteriores y Mantenimiento</li>
