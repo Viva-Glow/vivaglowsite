@@ -130,6 +130,9 @@ function ContactComponent(props) {
                         minLength="2"
                       />
                     </div>
+                    <div>
+                      <input type="checkbox" required className="mb-4"/> He leído y acepto las <a href="/politicas_de_privacidad" className="check"><b>Políticas de privacidad</b> </a>
+                    </div>
 
                     <div>
                       <input
