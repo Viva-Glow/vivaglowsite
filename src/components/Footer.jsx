@@ -103,6 +103,15 @@ const Footer = () => {
           <br />
           <li>Todos los derechos reservados 2023</li>
           <br />
+          <li>
+            <a href="/politicas_de_privacidad">Políticas de privacidad</a>
+          </li>
+          <br />
+          <li>
+            <a href="/aviso_legal">Aviso legal</a>
+          </li>
+          <br />
+         
           <li className="pixela">
             <a href="https://pixela.es"  target="_blank"> Desarrollado por Pixela</a>{" "}
           </li>

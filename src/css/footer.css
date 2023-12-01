@@ -119,3 +119,7 @@ footer .social-media .links a {
         display: none;
     }
     }
+    /* ------------------------------  politicas de privacidad, aviso legal*/
+    .textLegal{
+        text-align: left;
+    }
