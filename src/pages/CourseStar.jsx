@@ -181,19 +181,19 @@ const CourseStar = () => {
                 
               <div class="black  ">
               
-                <span >B</span>
+                {/* <span >B</span>
                 <span>L</span>
                 <span>A</span>
                 <span>C</span>
-                <span>K</span>
+                <span>K</span> */}
                 <br />
-                <span>F</span>
+                {/* <span>F</span>
                 <span>R</span>
                 <span>I</span>
                 <span>D</span>
                 <span>A</span>
-                <span>Y</span>
-                <p className="pExtra">SALE € 599</p>
+                <span>Y</span> */}
+                <p className=" black pExtra">SALE € 599</p>
               </div>
               </div>
 
