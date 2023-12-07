@@ -111,6 +111,9 @@ const Footer = () => {
             <a href="/aviso_legal">Aviso legal</a>
           </li>
           <br />
+          <li>
+            <a href="/politicas_de_cookies">Política de cookies</a>
+          </li>
          
           <li className="pixela">
             <a href="https://pixela.es"  target="_blank"> Desarrollado por Pixela</a>{" "}
